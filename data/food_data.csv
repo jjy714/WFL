@@ -1,0 +1,395 @@
+﻿id,id2,Food Name,Category,Spiciness,Rice/Noodle/Bread,Hot/Cold,Soup
+1,1,간장게장,한식,FALSE,밥,c,FALSE
+2,2,족발,한식,FALSE,밥,h,FALSE
+3,3,수육,한식,FALSE,밥,h,FALSE
+4,4,잔치국수,한식,FALSE,면,h,TRUE
+5,5,탕수육,중식,FALSE,밥,h,FALSE
+6,6,물냉면,한식,FALSE,면,h,TRUE
+7,7,비빔냉면,한식,TRUE,밥,c,FALSE
+8,8,차돌된장찌개,한식,FALSE,밥,h,TRUE
+9,9,짜장면,중식,FALSE,면,h,FALSE
+10,10,월남쌈,동남아식,FALSE,밥,c,FALSE
+11,11,짬뽕,중식,TRUE,면,h,TRUE
+12,12,잡탕밥,중식,FALSE,밥,h,FALSE
+13,13,돼지갈비,한식,FALSE,밥,h,FALSE
+14,14,유부초밥,한식,FALSE,밥,c,FALSE
+15,15,소갈비,한식,FALSE,밥,h,FALSE
+16,16,참치김치찌개,한식,TRUE,밥,h,TRUE
+17,17,보리밥,한식,FALSE,밥,h,FALSE
+18,18,호박떡,디저트 ,FALSE,떡,c,FALSE
+19,19,육개장,한식,TRUE,밥,h,TRUE
+20,20,팔보채,중식,FALSE,밥,h,FALSE
+21,21,벌집삼겹살,한식,FALSE,밥,h,FALSE
+22,22,버블티,디저트 ,FALSE,버블티,c,FALSE
+23,23,평양냉면,한식,FALSE,면,c,TRUE
+24,24,알밥,일식,FALSE,밥,h,FALSE
+25,25,대패삼겹살,한식,FALSE,밥,h,FALSE
+26,26,꽈배기,디저트 ,FALSE,빵,h,FALSE
+27,27,도넛,디저트 ,FALSE,빵,h,FALSE
+28,28,초밥,일식,FALSE,밥,c,FALSE
+29,29,회오리감자,간식,FALSE,감자,h,FALSE
+30,30,호미빙,디저트 ,FALSE,아이스크림,c,FALSE
+31,31,오징어버터구이,간식,FALSE,구이,h,FALSE
+32,32,연탄불고기,한식,FALSE,밥,h,FALSE
+33,33,오레오빙수,디저트 ,FALSE,아이스크림,c,FALSE
+34,34,순두부찌개,한식,TRUE,밥,h,TRUE
+35,35,회덮밥,일식,TRUE,밥,c,FALSE
+36,36,깐풍기,중식,FALSE,튀김,h,FALSE
+37,37,미역국,한식,FALSE,밥,h,TRUE
+38,38,물회,한식,TRUE,밥,c,TRUE
+39,39,콩나물국밥,한식,FALSE,밥,h,TRUE
+40,40,오징어회,한식,FALSE,밥,c,FALSE
+41,41,참치회,일식,FALSE,밥,c,FALSE
+42,42,고등어구이,한식,FALSE,밥,h,FALSE
+43,43,명란젓,한식(반찬),FALSE,밥,c,FALSE
+44,44,배추김치,한식(반찬),TRUE,밥,c,FALSE
+46,46,고사리 나물,한식(반찬),FALSE,밥,c,FALSE
+47,47,크림카레우동,일식,FALSE,면,h,TRUE
+48,48,갈비찜,한식,FALSE,밥,h,FALSE
+49,49,치킨,한식,FALSE,밥,h,FALSE
+50,50,경양식 돈까스,한식,FALSE,밥,h,FALSE
+51,51,일식 돈까스 ,일식,FALSE,밥,h,FALSE
+52,52,볶음김치,한식(반찬),TRUE,밥,h,FALSE
+53,53,계란말이,한식(반찬),FALSE,밥,h,FALSE
+54,54,숯불닭갈비,한식,TRUE,밥,h,FALSE
+55,55,소고기무국,한식,FALSE,밥,h,TRUE
+56,56,곰탕,한식,FALSE,밥,h,TRUE
+57,57,갈비탕,한식,FALSE,밥,h,TRUE
+58,58,호박전,한식(반찬),FALSE,밥,h,FALSE
+59,59,치즈감자고로케,간식,FALSE,빵,h,FALSE
+60,60,쫄병스낵,간식,FALSE,과자,c,FALSE
+61,61,케밥,터키식,FALSE,빵,h,FALSE
+62,62,골뱅이무침,한식(안주),TRUE,밥,c,FALSE
+63,63,깍두기,한식(반찬),TRUE,밥,c,FALSE
+64,64,비빔국수,한식,TRUE,면,c,FALSE
+65,65,꽃빵,중식,FALSE,빵,h,FALSE
+66,66,참치비빔밥,일식,TRUE,밥,c,FALSE
+67,67,불고기버거,한식,FALSE,밥,h,FALSE
+68,68,겉절이,한식(반찬),TRUE,밥,c,FALSE
+69,69,수제비,한식,FALSE,밥,h,TRUE
+70,70,파전,한식,FALSE,밥,h,FALSE
+71,71,명이나물,한식(반찬),FALSE,밥,c,FALSE
+72,72,피자찐빵,간식,FALSE,빵,h,FALSE
+73,73,오돌뼈,한식(안주),TRUE,밥,h,FALSE
+74,74,양념게장,한식,TRUE,밥,c,FALSE
+75,75,팟타이,태국식,FALSE,면,h,FALSE
+76,76,떡볶이,한식,TRUE,밥,h,FALSE
+77,77,뼈해장국,한식,TRUE,밥,h,TRUE
+78,78,가리비구이,한식,FALSE,밥,h,FALSE
+79,79,비지찌개,한식,FALSE,밥,h,TRUE
+80,80,무지개떡,간식,FALSE,떡,c,FALSE
+81,81,간장새우,한식,FALSE,밥,c,FALSE
+82,82,김밥,한식,FALSE,밥,c,FALSE
+83,83,녹차모찌,디저트 ,FALSE,떡,c,FALSE
+84,84,생새우초밥,일식,FALSE,밥,c,FALSE
+85,85,남산왕돈까스,한식,FALSE,밥,h,FALSE
+86,86,조랭이떡,디저트 ,FALSE,떡,c,FALSE
+87,87,녹차치즈모찌,디저트 ,FALSE,떡,c,FALSE
+88,88,골뱅이소면무침,한식(안주),TRUE,면,c,FALSE
+89,89,김치만두,한식,TRUE,밥,h,FALSE
+90,90,군만두,중식,FALSE,튀김,h,FALSE
+91,91,물만두,한식,FALSE,밥,h,FALSE
+92,92,찐빵,간식,FALSE,빵,h,FALSE
+93,93,멸치볶음,한식(반찬),FALSE,밥,c,FALSE
+94,94,쫄면,한식,TRUE,면,c,FALSE
+95,95,순대,한식,FALSE,밥,h,FALSE
+96,96,곱창,한식,FALSE,밥,h,FALSE
+97,97,대창,한식,FALSE,밥,h,FALSE
+98,98,막창,한식,FALSE,밥,h,FALSE
+99,99,LA갈비,한식,FALSE,밥,h,FALSE
+100,100,콩나물무침,한식(반찬),FALSE,밥,c,FALSE
+101,101,모찌롤,디저트 ,FALSE,빵,c,FALSE
+102,102,냉치킨,한식,FALSE,밥,c,FALSE
+103,103,선지해장국,한식,TRUE,밥,h,TRUE
+104,104,깐쇼새우,중식,FALSE,튀김,h,FALSE
+105,105,유산슬,중식,FALSE,밥,h,FALSE
+106,106,고구마빵,간식,FALSE,빵,c,FALSE
+107,107,돼지국밥,한식,FALSE,밥,h,TRUE
+108,108,횡성한우,한식,FALSE,밥,h,FALSE
+109,109,파김치,한식(반찬),TRUE,밥,c,FALSE
+110,110,새우죽,한식,FALSE,밥,h,FALSE
+111,111,고추장찌개,한식,TRUE,밥,h,TRUE
+112,112,통감자,간식,FALSE,감자,h,FALSE
+113,113,엽떡,분식,TRUE,떡,h,FALSE
+114,114,회냉면,한식,TRUE,면,c,FALSE
+115,115,낙지젓,한식(반찬),TRUE,밥,c,FALSE
+116,116,육포,간식,FALSE,FALSE,c,FALSE
+117,117,고구마밥,한식,FALSE,밥,h,FALSE
+118,118,생선까스,한식,FALSE,밥,h,FALSE
+119,119,오이지,한식(반찬),FALSE,밥,c,FALSE
+120,120,된장국,한식,FALSE,밥,h,TRUE
+121,121,찹쌀도넛,디저트 ,FALSE,빵,h,FALSE
+122,122,백김치,한식(반찬),FALSE,밥,c,FALSE
+123,123,파래,한식(반찬),FALSE,밥,c,FALSE
+124,124,안동찜닭,한식,FALSE,밥,h,FALSE
+125,125,까르보나라떡볶이,분식,FALSE,떡,h,FALSE
+126,126,설렁탕,한식,FALSE,밥,h,TRUE
+127,127,석박지,한식(반찬),FALSE,밥,c,FALSE
+128,128,육회비빔밥,한식,TRUE,밥,c,FALSE
+129,129,어묵꼬치,간식,FALSE,FALSE,h,TRUE
+130,130,열무비빔밥,한식,FALSE,밥,c,FALSE
+131,131,광어회,한식,FALSE,밥,c,FALSE
+132,132,고추잡채,중식,FALSE,밥,h,FALSE
+133,133,닭도리탕,한식,TRUE,밥,h,TRUE
+134,134,참치볶음,한식,FALSE,밥,h,FALSE
+135,135,슈크림빵,디저트 ,FALSE,빵,c,FALSE
+136,136,오징어무침,한식(반찬),TRUE,밥,c,FALSE
+137,137,도라지,한식(반찬),TRUE,밥,c,FALSE
+138,138,양념갈비,한식,FALSE,밥,h,FALSE
+139,139,닭똥집,한식(안주),FALSE,밥,h,FALSE
+140,140,식혜,음료,FALSE,FALSE,c,FALSE
+141,141,한우스테이크,한식,FALSE,밥,h,FALSE
+142,142,돌솥비빔밥,한식,FALSE,밥,h,FALSE
+143,143,야쿠르트,음료,FALSE,FALSE,c,FALSE
+144,144,조기구이,한식,FALSE,밥,h,FALSE
+145,145,돼지갈비찜,한식,FALSE,밥,h,FALSE
+146,146,명란스파게티,양식,FALSE,면,h,FALSE
+147,147,후쿠오카함바그,일식,FALSE,밥,h,FALSE
+148,148,파무침,한식(반찬),TRUE,밥,c,FALSE
+149,149,미숫가루,음료,FALSE,FALSE,c,FALSE
+150,150,총각김치,한식(반찬),TRUE,밥,c,FALSE
+151,151,떡갈비,한식,FALSE,밥,h,FALSE
+152,152,양꼬치,중식,FALSE,밥,h,FALSE
+153,153,홍초,음료,FALSE,FALSE,c,FALSE
+154,154,굴,음식,FALSE,FALSE,c,FALSE
+155,155,짬뽕밥,중식,TRUE,밥,h,TRUE
+156,156,말린과일,간식,FALSE,과일,c,FALSE
+157,157,볶음우동,일식,TRUE,면,h,FALSE
+158,158,닭강정,간식,FALSE,구이,c,FALSE
+159,159,동치미,한식(반찬),FALSE,밥,c,TRUE
+160,160,떡꼬치,분식,FALSE,떡,h,FALSE
+161,161,김말이튀김,분식,FALSE,튀김,h,FALSE
+162,162,두부,한식,FALSE,밥,h,FALSE
+163,163,냉이된장국,한식,FALSE,밥,h,TRUE
+164,164,치즈돈까스정식,한식,FALSE,밥,h,FALSE
+165,165,쟁반짜장,중식,FALSE,면,h,FALSE
+166,166,연어알 주먹밥,일식,FALSE,밥,h,FALSE
+167,167,삼계탕,한식,FALSE,밥,h,TRUE
+168,168,카레우동,일식,FALSE,면,h,TRUE
+169,169,관자,한식,FALSE,밥,h,FALSE
+170,170,호로요이,음료(술),FALSE,FALSE,c,FALSE
+171,171,이삭토스트,한식,FALSE,밥,h,FALSE
+172,172,국물닭발,한식(안주),TRUE,밥,h,TRUE
+173,173,해물순두부,한식,TRUE,밥,h,TRUE
+174,174,오설록,음료,FALSE,FALSE,c ,FALSE
+175,175,군밤,간식,FALSE,FALSE,h,FALSE
+176,176,붕어빵,간식,FALSE,빵,h,FALSE
+177,177,규동,일식,FALSE,밥,h,FALSE
+178,178,편육,한식(안주),FALSE,밥,c,FALSE
+179,179,쌀국수,베트남식,FALSE,면,h,TRUE
+180,180,볶음밥,중식,FALSE,밥,h,FALSE
+181,181,김치전,한식,TRUE,밥,h,FALSE
+182,182,소갈비찜,한식,FALSE,밥,h,FALSE
+183,183,동그랑땡,한식,FALSE,밥,h,FALSE
+184,184,유자차,음료,FALSE,FALSE,h,FALSE
+185,185,송편,디저트 ,FALSE,떡,c,FALSE
+186,186,우삼겹,한식,FALSE,밥,h,FALSE
+187,187,전병,한식,FALSE,밥,h,FALSE
+188,188,스테키동,일식,FALSE,밥,h,FALSE
+189,189,바나나맛우유,음료,FALSE,FALSE,c,FALSE
+190,190,감자떡,간식,FALSE,떡,h,FALSE
+191,191,맥심골드,음료,FALSE,FALSE,h,FALSE
+192,192,주먹김밥,한식,FALSE,밥,h,FALSE
+193,193,갈치조림,한식,TRUE,밥,h,FALSE
+194,194,안성국밥,한식,TRUE,밥,h,TRUE
+195,195,호박나물,한식(반찬),FALSE,밥,c,FALSE
+196,196,짜장밥,중식,FALSE,밥,h,FALSE
+197,197,고구마,간식,FALSE,FALSE,h,FALSE
+198,198,마파두부,중식,TRUE,밥,h,FALSE
+199,199,감자탕,한식,TRUE,밥,h,TRUE
+200,200,육사시미,한식,FALSE,밥,c,FALSE
+201,201,곱창전골,한식,TRUE,밥,h,TRUE
+202,202,뚝배기 불고기,한식,FALSE,밥,h,TRUE
+203,203,숙주나물,한식(반찬),FALSE,밥,c,FALSE
+204,204,호떡,간식,FALSE,FALSE,h,FALSE
+205,205,참치김밥,한식,FALSE,밥,c,FALSE
+206,206,타코야끼,일식,FALSE,밥,h,FALSE
+207,207,참치뱃살,일식,FALSE,밥,c,FALSE
+208,208,초코크림빵,디저트 ,FALSE,빵,c,FALSE
+209,209,떡국,한식,FALSE,밥,h,TRUE
+210,210,약과,디저트 ,FALSE,과자,c,FALSE
+211,211,호박찌개,한식,TRUE,밥,h,TRUE
+212,212,알탕,한식,TRUE,밥,h,TRUE
+213,213,잡채,한식,FALSE,밥,h,FALSE
+214,214,카레라이스,한식,FALSE,밥,h,FALSE
+215,215,마크정식,분식,TRUE,면,h,FALSE
+216,216,명란삼각김밥,한식,FALSE,밥,h,FALSE
+217,217,녹차라떼,음료,FALSE,FALSE,h,FALSE
+218,218,꽃등심,한식,FALSE,밥,h,FALSE
+219,219,함박스테이크,한식,FALSE,밥,h,FALSE
+220,220,잡채밥,중식,FALSE,밥,h,FALSE
+221,221,묵은지,한식(반찬),TRUE,밥,c,FALSE
+222,222,토마토리조또,양식,FALSE,밥,h,FALSE
+223,223,복숭아,디저트 ,FALSE,과일,c,FALSE
+224,224,맥반석 오징어,간식,FALSE,구이,h,FALSE
+225,225,라면,분식,TRUE,면,h,TRUE
+226,226,파닭,한식,FALSE,밥,h,FALSE
+227,227,찹쌀떡,간식,FALSE,떡,c,FALSE
+228,228,로이스초콜릿,디저트 ,FALSE,초콜릿,c,FALSE
+229,229,어포,간식,FALSE,FALSE,c,FALSE
+230,230,홍합탕,한식,FALSE,밥,h,TRUE
+231,231,양구이,한식,FALSE,밥,h,FALSE
+232,232,백설기,디저트 ,FALSE,떡,c,FALSE
+233,233,단호박죽,한식,FALSE,밥,h,FALSE
+234,234,오감자칠리,간식,TRUE,과자,c,FALSE
+235,235,장조림,한식(반찬),FALSE,밥,c,FALSE
+236,236,청국장,한식,FALSE,밥,h,TRUE
+237,237,우동,일식,FALSE,면,h,TRUE
+238,238,김칫국,한식,TRUE,밥,h,TRUE
+239,239,야채곱창,한식,TRUE,밥,h,FALSE
+240,240,몽쉘,디저트 ,FALSE,빵,c,FALSE
+241,241,오예스,디저트 ,FALSE,빵,c,FALSE
+242,242,꼬막,한식,FALSE,밥,c,FALSE
+243,243,돼지껍데기,한식(안주),FALSE,밥,h,FALSE
+244,244,빈대떡,한식,FALSE,밥,h,FALSE
+245,245,샤브샤브,한식,FALSE,밥,h,TRUE
+246,246,오리훈제구이,한식,FALSE,밥,h,FALSE
+247,247,아침햇살,음료,FALSE,FALSE,c,FALSE
+248,248,아구찜,한식,TRUE,밥,h,FALSE
+249,249,전복구이,한식,FALSE,밥,h,FALSE
+250,250,항정살,한식,FALSE,밥,h,FALSE
+251,251,무뼈닭발,한식(안주),TRUE,밥,h,FALSE
+252,252,산낙지,한식,FALSE,밥,c,FALSE
+253,253,생간,한식,FALSE,밥,c,FALSE
+254,254,뻥튀기,간식,FALSE,과자,c,FALSE
+255,255,찰보리밥,한식,FALSE,밥,h,FALSE
+256,256,고구마스틱,간식,FALSE,과자,c,FALSE
+257,257,삼각커피우유,음료,FALSE,FALSE,c,FALSE
+258,258,카스타드,디저트 ,FALSE,빵,c,FALSE
+259,259,육회,한식,FALSE,밥,c,FALSE
+260,260,라볶이,분식,TRUE,떡,h,FALSE
+261,261,제육볶음,한식,TRUE,밥,h,FALSE
+262,262,취나물,한식(반찬),FALSE,밥,c,FALSE
+263,263,꼬꼬면,한식,TRUE,면,h,TRUE
+264,264,오이냉국,한식,FALSE,밥,c,TRUE
+265,265,짜글이,한식,TRUE,밥,h,TRUE
+266,266,소고기야채죽,한식,FALSE,밥,h,FALSE
+267,267,닭갈비,한식,TRUE,밥,h,FALSE
+268,268,쭈꾸미볶음,한식,TRUE,밥,h,FALSE
+269,269,꼬마김밥,분식,FALSE,밥,c,FALSE
+270,270,찹쌀탕수육,중식,FALSE,튀김,h,FALSE
+271,271,카레,일식,FALSE,밥,h,FALSE
+272,272,양대창,한식,FALSE,밥,h,FALSE
+273,273,가츠동,일식,FALSE,밥,h,FALSE
+274,274,밥버거,분식,FALSE,밥,h,FALSE
+275,275,갓김치,한식(반찬),TRUE,밥,c,FALSE
+276,276,틈새라면,한식,TRUE,면,h,TRUE
+277,277,계란찜,FALSE,FALSE,FALSE,h,TRUE
+278,278,매운탕,한식,TRUE,밥,h,TRUE
+279,279,홍어무침,한식,TRUE,밥,c,FALSE
+280,280,꿔바로우,중식,FALSE,튀김,h,FALSE
+281,281,곶감,간식,FALSE,FALSE,c,FALSE
+282,282,표고버섯볶음,한식(반찬),FALSE,밥,h,FALSE
+283,283,오이김치,한식(반찬),TRUE,밥,c,FALSE
+284,284,셀렉션,디저트 ,FALSE,아이스크림,c,FALSE
+285,285,두유,음료,FALSE,FALSE,c,FALSE
+286,286,주먹밥,한식,FALSE,밥,h,FALSE
+287,287,립,FALSE,FALSE,FALSE,h,FALSE
+288,288,고르곤졸라 피자,양식,FALSE,빵,h,FALSE
+289,289,꽃게랑,간식,FALSE,과자,c,FALSE
+290,290,고기만두,한식,FALSE,밥,h,FALSE
+291,291,감자수제비,한식,FALSE,밥,h,TRUE
+292,292,왕만두,중식,FALSE,밥,h,FALSE
+293,293,참치마요,한식,FALSE,밥,c,FALSE
+294,294,고기육수,한식,FALSE,밥,h,TRUE
+295,295,규카츠,일식,FALSE,밥,h,FALSE
+296,296,라멘,일식,FALSE,면,h,TRUE
+297,297,낙지호롱구이,한식,FALSE,밥,h,FALSE
+298,298,떡만두국,한식,FALSE,밥,h,TRUE
+299,299,초코퍼지,디저트 ,FALSE,FALSE,h,FALSE
+300,300,기름떡볶이,한식,FALSE,밥,h,FALSE
+301,301,염통,한식,FALSE,밥,h,FALSE
+302,302,메로나,디저트 ,FALSE,아이스크림,c,FALSE
+303,303,불초밥,한식,FALSE,밥,h,FALSE
+304,304,잡채,한식,FALSE,면,h,FALSE
+305,305,스파클링와인,음료(술),FALSE,FALSE,c,FALSE
+306,306,부대찌개,한식,TRUE,밥,h,TRUE
+307,307,부추김치,한식(반찬),TRUE,밥,c,FALSE
+308,308,천엽,한식,FALSE,밥,c,FALSE
+309,309,간짜장,중식,FALSE,면,h,FALSE
+310,310,꽃게탕,한식,TRUE,밥,h,TRUE
+311,311,팥빙수,디저트 ,FALSE,아이스크림,c,FALSE
+312,312,고구마피자,양식,FALSE,빵,h,FALSE
+313,313,아구탕,한식,TRUE,밥,h,TRUE
+314,314,내장볶음,한식,FALSE,밥,h,FALSE
+315,315,두부김치,한식,FALSE,밥,h,FALSE
+316,316,비름나물,한식(반찬),FALSE,밥,c,FALSE
+317,317,조개구이,한식,FALSE,밥,h,FALSE
+318,318,목살,한식,FALSE,밥,h,FALSE
+319,319,스테이크,양식,FALSE,FALSE,h,FALSE
+320,320,버섯전골,한식,FALSE,밥,h,TRUE
+321,321,간장치킨,한식,FALSE,밥,h,FALSE
+322,322,스프링롤,베트남식,FALSE,FALSE,h,FALSE
+323,323,북어탕,한식,FALSE,밥,h,TRUE
+324,324,치즈곱창,한식,FALSE,밥,h,FALSE
+325,325,쭈꾸미 숙회,한식,FALSE,밥,c,FALSE
+326,326,인절미,간식,FALSE,떡,c,FALSE
+327,327,쌈무,한식(반찬),FALSE,밥,c,FALSE
+328,328,민물장어,한식,FALSE,밥,h,FALSE
+329,329,간,한식,FALSE,밥,c,FALSE
+330,330,인절미빙수,디저트 ,FALSE,아이스크림,c,FALSE
+331,331,돈까스김밥,한식,FALSE,밥,h,FALSE
+332,332,시래기국,한식,FALSE,밥,h,TRUE
+333,333,찐옥수수,한식,FALSE,밥,h,FALSE
+334,334,민트초코우유,음료,FALSE,FALSE,c,FALSE
+335,335,검은콩우유,음료,FALSE,FALSE,c,FALSE
+336,336,뽀글이,한식,FALSE,면,h,TRUE
+337,337,황태해장국,한식,FALSE,밥,h,TRUE
+338,338,동태전,한식,FALSE,밥,h,FALSE
+339,339,설빙,디저트 ,FALSE,아이스크림,c,FALSE
+340,340,탕평채,한식,FALSE,밥,c,FALSE
+341,341,무지개케익,간식,FALSE,떡,c,FALSE
+342,342,소고기덮밥,한식,FALSE,밥,h,FALSE
+343,343,등갈비,한식,FALSE,밥,h,FALSE
+344,344,포카리스웨트,음료,FALSE,FALSE,c,FALSE
+345,345,보쌈,한식,FALSE,밥,h,FALSE
+346,346,짜장라면,한식,FALSE,면,h,FALSE
+347,347,쌀통닭,한식,FALSE,밥,h,FALSE
+348,348,해파리냉채,한식,FALSE,밥,c,FALSE
+349,349,돼지김치찌개,한식,TRUE,밥,h,TRUE
+350,350,김치부침개,한식,TRUE,밥,h,FALSE
+351,351,콩국수,한식,FALSE,면,c,TRUE
+352,352,동지팥죽,한식,FALSE,밥,h,FALSE
+353,353,철판볶음밥,한식,FALSE,밥,h,FALSE
+354,354,춘천닭갈비,한식,TRUE,밥,h,FALSE
+355,355,가츠나베,일식,FALSE,밥,h,TRUE
+356,356,깍두기밥,한식,TRUE,밥,h,FALSE
+357,357,홍시,간식,FALSE,FALSE,c,FALSE
+358,358,냉짬뽕,중식,FALSE,면,c,TRUE
+359,359,냉우동,일식,FALSE,면,c,TRUE
+360,360,더덕회무침,한식,FALSE,밥,c,FALSE
+361,361,바지락칼국수,한식,FALSE,밥,h,TRUE
+362,362,오꼬노미야끼,일식,FALSE,밥,h,FALSE
+363,363,단호박식혜,음료,FALSE,FALSE,c,FALSE
+364,364,녹차아이스크림,디저트 ,FALSE,아이스크림,c,FALSE
+365,365,꽃게찜,한식,FALSE,밥,h,FALSE
+366,366,감자전,한식,FALSE,밥,h,FALSE
+367,367,아바이순대,한식,FALSE,밥,h,FALSE
+368,368,매실주스,음료,FALSE,FALSE,c,FALSE
+369,369,구운김,한식(반찬),FALSE,밥,c,FALSE
+370,370,오뜨,디저트 ,FALSE,빵,c,FALSE
+371,371,조개관자구이,한식,FALSE,밥,h,FALSE
+372,372,매운새우깡,간식,TRUE,과자,c,FALSE
+373,373,간짬뽕,중식,TRUE,면,h,FALSE
+374,374,피카츄돈까스,한식,FALSE,밥,h,FALSE
+375,375,닭꼬치,일식,FALSE,밥,h,FALSE
+376,376,명량핫도그,한식,FALSE,밥,h,FALSE
+377,377,내장탕,한식,TRUE,밥,h,TRUE
+378,378,흑돼지순댓국,한식,FALSE,밥,h,TRUE
+379,379,차돌삼합,한식,FALSE,밥,h,FALSE
+380,380,녹차빙수,디저트 ,FALSE,아이스크림,c,FALSE
+381,381,불닭볶음면,한식,TRUE,밥,h,FALSE
+382,382,이슬톡톡,음료(술),FALSE,FALSE,c,FALSE
+383,383,오므라이스,일식,FALSE,밥,h,FALSE
+384,384,오징어튀김,분식,FALSE,밥,h,FALSE
+385,385,왕교자,중식,FALSE,밥,h,FALSE
+386,386,죠리퐁,간식,FALSE,과자,c,FALSE
+387,387,김치찜,한식,TRUE,밥,h,TRUE
+388,388,어묵탕,일식,FALSE,밥,h,TRUE
+389,389,짜샤이,중식,TRUE,FALSE,c,FALSE
+390,390,피자빵,간식,FALSE,빵,c,FALSE
+391,391,멘보샤,중식,FALSE,튀김,h,FALSE
+392,392,곤약,FALSE,FALSE,FALSE,c,FALSE
+393,393,소머리국밥,한식,FALSE,밥,h,TRUE
+394,394,마라탕 ,중식,TRUE,면,h,TRUE
+395,395,마라샹궈,중식,TRUE,밥,h,FALSE

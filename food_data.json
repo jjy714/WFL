@@ -1,0 +1,3942 @@
+[
+  {
+    "id": "1",
+    "id2": "1",
+    "Food Name": "간장게장",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "2",
+    "id2": "2",
+    "Food Name": "족발",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "3",
+    "id2": "3",
+    "Food Name": "수육",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "4",
+    "id2": "4",
+    "Food Name": "잔치국수",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "5",
+    "id2": "5",
+    "Food Name": "탕수육",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "6",
+    "id2": "6",
+    "Food Name": "물냉면",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "7",
+    "id2": "7",
+    "Food Name": "비빔냉면",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "8",
+    "id2": "8",
+    "Food Name": "차돌된장찌개",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "9",
+    "id2": "9",
+    "Food Name": "짜장면",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "10",
+    "id2": "10",
+    "Food Name": "월남쌈",
+    "Category": "동남아식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "11",
+    "id2": "11",
+    "Food Name": "짬뽕",
+    "Category": "중식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "12",
+    "id2": "12",
+    "Food Name": "잡탕밥",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "13",
+    "id2": "13",
+    "Food Name": "돼지갈비",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "14",
+    "id2": "14",
+    "Food Name": "유부초밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "15",
+    "id2": "15",
+    "Food Name": "소갈비",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "16",
+    "id2": "16",
+    "Food Name": "참치김치찌개",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "17",
+    "id2": "17",
+    "Food Name": "보리밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "18",
+    "id2": "18",
+    "Food Name": "호박떡",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "19",
+    "id2": "19",
+    "Food Name": "육개장",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "20",
+    "id2": "20",
+    "Food Name": "팔보채",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "21",
+    "id2": "21",
+    "Food Name": "벌집삼겹살",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "22",
+    "id2": "22",
+    "Food Name": "버블티",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "버블티",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "23",
+    "id2": "23",
+    "Food Name": "평양냉면",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "c",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "24",
+    "id2": "24",
+    "Food Name": "알밥",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "25",
+    "id2": "25",
+    "Food Name": "대패삼겹살",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "26",
+    "id2": "26",
+    "Food Name": "꽈배기",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "27",
+    "id2": "27",
+    "Food Name": "도넛",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "28",
+    "id2": "28",
+    "Food Name": "초밥",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "29",
+    "id2": "29",
+    "Food Name": "회오리감자",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "감자",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "30",
+    "id2": "30",
+    "Food Name": "호미빙",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "아이스크림",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "31",
+    "id2": "31",
+    "Food Name": "오징어버터구이",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "구이",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "32",
+    "id2": "32",
+    "Food Name": "연탄불고기",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "33",
+    "id2": "33",
+    "Food Name": "오레오빙수",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "아이스크림",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "34",
+    "id2": "34",
+    "Food Name": "순두부찌개",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "35",
+    "id2": "35",
+    "Food Name": "회덮밥",
+    "Category": "일식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "36",
+    "id2": "36",
+    "Food Name": "깐풍기",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "튀김",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "37",
+    "id2": "37",
+    "Food Name": "미역국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "38",
+    "id2": "38",
+    "Food Name": "물회",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "39",
+    "id2": "39",
+    "Food Name": "콩나물국밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "40",
+    "id2": "40",
+    "Food Name": "오징어회",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "41",
+    "id2": "41",
+    "Food Name": "참치회",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "42",
+    "id2": "42",
+    "Food Name": "고등어구이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "43",
+    "id2": "43",
+    "Food Name": "명란젓",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "44",
+    "id2": "44",
+    "Food Name": "배추김치",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "46",
+    "id2": "46",
+    "Food Name": "고사리 나물",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "47",
+    "id2": "47",
+    "Food Name": "크림카레우동",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "48",
+    "id2": "48",
+    "Food Name": "갈비찜",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "49",
+    "id2": "49",
+    "Food Name": "치킨",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "50",
+    "id2": "50",
+    "Food Name": "경양식 돈까스",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "51",
+    "id2": "51",
+    "Food Name": "일식 돈까스",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "52",
+    "id2": "52",
+    "Food Name": "볶음김치",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "53",
+    "id2": "53",
+    "Food Name": "계란말이",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "54",
+    "id2": "54",
+    "Food Name": "숯불닭갈비",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "55",
+    "id2": "55",
+    "Food Name": "소고기무국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "56",
+    "id2": "56",
+    "Food Name": "곰탕",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "57",
+    "id2": "57",
+    "Food Name": "갈비탕",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "58",
+    "id2": "58",
+    "Food Name": "호박전",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "59",
+    "id2": "59",
+    "Food Name": "치즈감자고로케",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "60",
+    "id2": "60",
+    "Food Name": "쫄병스낵",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "과자",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "61",
+    "id2": "61",
+    "Food Name": "케밥",
+    "Category": "터키식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "62",
+    "id2": "62",
+    "Food Name": "골뱅이무침",
+    "Category": "한식(안주)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "63",
+    "id2": "63",
+    "Food Name": "깍두기",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "64",
+    "id2": "64",
+    "Food Name": "비빔국수",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "65",
+    "id2": "65",
+    "Food Name": "꽃빵",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "66",
+    "id2": "66",
+    "Food Name": "참치비빔밥",
+    "Category": "일식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "67",
+    "id2": "67",
+    "Food Name": "불고기버거",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "68",
+    "id2": "68",
+    "Food Name": "겉절이",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "69",
+    "id2": "69",
+    "Food Name": "수제비",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "70",
+    "id2": "70",
+    "Food Name": "파전",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "71",
+    "id2": "71",
+    "Food Name": "명이나물",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "72",
+    "id2": "72",
+    "Food Name": "피자찐빵",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "73",
+    "id2": "73",
+    "Food Name": "오돌뼈",
+    "Category": "한식(안주)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "74",
+    "id2": "74",
+    "Food Name": "양념게장",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "75",
+    "id2": "75",
+    "Food Name": "팟타이",
+    "Category": "태국식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "76",
+    "id2": "76",
+    "Food Name": "떡볶이",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "77",
+    "id2": "77",
+    "Food Name": "뼈해장국",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "78",
+    "id2": "78",
+    "Food Name": "가리비구이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "79",
+    "id2": "79",
+    "Food Name": "비지찌개",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "80",
+    "id2": "80",
+    "Food Name": "무지개떡",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "81",
+    "id2": "81",
+    "Food Name": "간장새우",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "82",
+    "id2": "82",
+    "Food Name": "김밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "83",
+    "id2": "83",
+    "Food Name": "녹차모찌",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "84",
+    "id2": "84",
+    "Food Name": "생새우초밥",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "85",
+    "id2": "85",
+    "Food Name": "남산왕돈까스",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "86",
+    "id2": "86",
+    "Food Name": "조랭이떡",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "87",
+    "id2": "87",
+    "Food Name": "녹차치즈모찌",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "88",
+    "id2": "88",
+    "Food Name": "골뱅이소면무침",
+    "Category": "한식(안주)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "89",
+    "id2": "89",
+    "Food Name": "김치만두",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "90",
+    "id2": "90",
+    "Food Name": "군만두",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "튀김",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "91",
+    "id2": "91",
+    "Food Name": "물만두",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "92",
+    "id2": "92",
+    "Food Name": "찐빵",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "93",
+    "id2": "93",
+    "Food Name": "멸치볶음",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "94",
+    "id2": "94",
+    "Food Name": "쫄면",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "95",
+    "id2": "95",
+    "Food Name": "순대",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "96",
+    "id2": "96",
+    "Food Name": "곱창",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "97",
+    "id2": "97",
+    "Food Name": "대창",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "98",
+    "id2": "98",
+    "Food Name": "막창",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "99",
+    "id2": "99",
+    "Food Name": "LA갈비",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "100",
+    "id2": "100",
+    "Food Name": "콩나물무침",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "101",
+    "id2": "101",
+    "Food Name": "모찌롤",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "102",
+    "id2": "102",
+    "Food Name": "냉치킨",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "103",
+    "id2": "103",
+    "Food Name": "선지해장국",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "104",
+    "id2": "104",
+    "Food Name": "깐쇼새우",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "튀김",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "105",
+    "id2": "105",
+    "Food Name": "유산슬",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "106",
+    "id2": "106",
+    "Food Name": "고구마빵",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "107",
+    "id2": "107",
+    "Food Name": "돼지국밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "108",
+    "id2": "108",
+    "Food Name": "횡성한우",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "109",
+    "id2": "109",
+    "Food Name": "파김치",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "110",
+    "id2": "110",
+    "Food Name": "새우죽",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "111",
+    "id2": "111",
+    "Food Name": "고추장찌개",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "112",
+    "id2": "112",
+    "Food Name": "통감자",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "감자",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "113",
+    "id2": "113",
+    "Food Name": "엽떡",
+    "Category": "분식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "114",
+    "id2": "114",
+    "Food Name": "회냉면",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "115",
+    "id2": "115",
+    "Food Name": "낙지젓",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "116",
+    "id2": "116",
+    "Food Name": "육포",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "117",
+    "id2": "117",
+    "Food Name": "고구마밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "118",
+    "id2": "118",
+    "Food Name": "생선까스",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "119",
+    "id2": "119",
+    "Food Name": "오이지",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "120",
+    "id2": "120",
+    "Food Name": "된장국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "121",
+    "id2": "121",
+    "Food Name": "찹쌀도넛",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "122",
+    "id2": "122",
+    "Food Name": "백김치",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "123",
+    "id2": "123",
+    "Food Name": "파래",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "124",
+    "id2": "124",
+    "Food Name": "안동찜닭",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "125",
+    "id2": "125",
+    "Food Name": "까르보나라떡볶이",
+    "Category": "분식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "126",
+    "id2": "126",
+    "Food Name": "설렁탕",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "127",
+    "id2": "127",
+    "Food Name": "석박지",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "128",
+    "id2": "128",
+    "Food Name": "육회비빔밥",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "129",
+    "id2": "129",
+    "Food Name": "어묵꼬치",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "130",
+    "id2": "130",
+    "Food Name": "열무비빔밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "131",
+    "id2": "131",
+    "Food Name": "광어회",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "132",
+    "id2": "132",
+    "Food Name": "고추잡채",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "133",
+    "id2": "133",
+    "Food Name": "닭도리탕",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "134",
+    "id2": "134",
+    "Food Name": "참치볶음",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "135",
+    "id2": "135",
+    "Food Name": "슈크림빵",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "136",
+    "id2": "136",
+    "Food Name": "오징어무침",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "137",
+    "id2": "137",
+    "Food Name": "도라지",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "138",
+    "id2": "138",
+    "Food Name": "양념갈비",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "139",
+    "id2": "139",
+    "Food Name": "닭똥집",
+    "Category": "한식(안주)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "140",
+    "id2": "140",
+    "Food Name": "식혜",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "141",
+    "id2": "141",
+    "Food Name": "한우스테이크",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "142",
+    "id2": "142",
+    "Food Name": "돌솥비빔밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "143",
+    "id2": "143",
+    "Food Name": "야쿠르트",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "144",
+    "id2": "144",
+    "Food Name": "조기구이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "145",
+    "id2": "145",
+    "Food Name": "돼지갈비찜",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "146",
+    "id2": "146",
+    "Food Name": "명란스파게티",
+    "Category": "양식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "147",
+    "id2": "147",
+    "Food Name": "후쿠오카함바그",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "148",
+    "id2": "148",
+    "Food Name": "파무침",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "149",
+    "id2": "149",
+    "Food Name": "미숫가루",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "150",
+    "id2": "150",
+    "Food Name": "총각김치",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "151",
+    "id2": "151",
+    "Food Name": "떡갈비",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "152",
+    "id2": "152",
+    "Food Name": "양꼬치",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "153",
+    "id2": "153",
+    "Food Name": "홍초",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "154",
+    "id2": "154",
+    "Food Name": "굴",
+    "Category": "음식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "155",
+    "id2": "155",
+    "Food Name": "짬뽕밥",
+    "Category": "중식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "156",
+    "id2": "156",
+    "Food Name": "말린과일",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "과일",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "157",
+    "id2": "157",
+    "Food Name": "볶음우동",
+    "Category": "일식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "158",
+    "id2": "158",
+    "Food Name": "닭강정",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "구이",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "159",
+    "id2": "159",
+    "Food Name": "동치미",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "160",
+    "id2": "160",
+    "Food Name": "떡꼬치",
+    "Category": "분식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "161",
+    "id2": "161",
+    "Food Name": "김말이튀김",
+    "Category": "분식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "튀김",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "162",
+    "id2": "162",
+    "Food Name": "두부",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "163",
+    "id2": "163",
+    "Food Name": "냉이된장국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "164",
+    "id2": "164",
+    "Food Name": "치즈돈까스정식",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "165",
+    "id2": "165",
+    "Food Name": "쟁반짜장",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "166",
+    "id2": "166",
+    "Food Name": "연어알 주먹밥",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "167",
+    "id2": "167",
+    "Food Name": "삼계탕",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "168",
+    "id2": "168",
+    "Food Name": "카레우동",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "169",
+    "id2": "169",
+    "Food Name": "관자",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "170",
+    "id2": "170",
+    "Food Name": "호로요이",
+    "Category": "음료(술)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "171",
+    "id2": "171",
+    "Food Name": "이삭토스트",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "172",
+    "id2": "172",
+    "Food Name": "국물닭발",
+    "Category": "한식(안주)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "173",
+    "id2": "173",
+    "Food Name": "해물순두부",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "174",
+    "id2": "174",
+    "Food Name": "오설록",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "175",
+    "id2": "175",
+    "Food Name": "군밤",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "176",
+    "id2": "176",
+    "Food Name": "붕어빵",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "177",
+    "id2": "177",
+    "Food Name": "규동",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "178",
+    "id2": "178",
+    "Food Name": "편육",
+    "Category": "한식(안주)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "179",
+    "id2": "179",
+    "Food Name": "쌀국수",
+    "Category": "베트남식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "180",
+    "id2": "180",
+    "Food Name": "볶음밥",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "181",
+    "id2": "181",
+    "Food Name": "김치전",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "182",
+    "id2": "182",
+    "Food Name": "소갈비찜",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "183",
+    "id2": "183",
+    "Food Name": "동그랑땡",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "184",
+    "id2": "184",
+    "Food Name": "유자차",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "185",
+    "id2": "185",
+    "Food Name": "송편",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "186",
+    "id2": "186",
+    "Food Name": "우삼겹",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "187",
+    "id2": "187",
+    "Food Name": "전병",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "188",
+    "id2": "188",
+    "Food Name": "스테키동",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "189",
+    "id2": "189",
+    "Food Name": "바나나맛우유",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "190",
+    "id2": "190",
+    "Food Name": "감자떡",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "191",
+    "id2": "191",
+    "Food Name": "맥심골드",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "192",
+    "id2": "192",
+    "Food Name": "주먹김밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "193",
+    "id2": "193",
+    "Food Name": "갈치조림",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "194",
+    "id2": "194",
+    "Food Name": "안성국밥",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "195",
+    "id2": "195",
+    "Food Name": "호박나물",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "196",
+    "id2": "196",
+    "Food Name": "짜장밥",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "197",
+    "id2": "197",
+    "Food Name": "고구마",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "198",
+    "id2": "198",
+    "Food Name": "마파두부",
+    "Category": "중식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "199",
+    "id2": "199",
+    "Food Name": "감자탕",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "200",
+    "id2": "200",
+    "Food Name": "육사시미",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "201",
+    "id2": "201",
+    "Food Name": "곱창전골",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "202",
+    "id2": "202",
+    "Food Name": "뚝배기 불고기",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "203",
+    "id2": "203",
+    "Food Name": "숙주나물",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "204",
+    "id2": "204",
+    "Food Name": "호떡",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "205",
+    "id2": "205",
+    "Food Name": "참치김밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "206",
+    "id2": "206",
+    "Food Name": "타코야끼",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "207",
+    "id2": "207",
+    "Food Name": "참치뱃살",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "208",
+    "id2": "208",
+    "Food Name": "초코크림빵",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "209",
+    "id2": "209",
+    "Food Name": "떡국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "210",
+    "id2": "210",
+    "Food Name": "약과",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "과자",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "211",
+    "id2": "211",
+    "Food Name": "호박찌개",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "212",
+    "id2": "212",
+    "Food Name": "알탕",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "213",
+    "id2": "213",
+    "Food Name": "잡채",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "214",
+    "id2": "214",
+    "Food Name": "카레라이스",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "215",
+    "id2": "215",
+    "Food Name": "마크정식",
+    "Category": "분식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "216",
+    "id2": "216",
+    "Food Name": "명란삼각김밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "217",
+    "id2": "217",
+    "Food Name": "녹차라떼",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "218",
+    "id2": "218",
+    "Food Name": "꽃등심",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "219",
+    "id2": "219",
+    "Food Name": "함박스테이크",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "220",
+    "id2": "220",
+    "Food Name": "잡채밥",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "221",
+    "id2": "221",
+    "Food Name": "묵은지",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "222",
+    "id2": "222",
+    "Food Name": "토마토리조또",
+    "Category": "양식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "223",
+    "id2": "223",
+    "Food Name": "복숭아",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "과일",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "224",
+    "id2": "224",
+    "Food Name": "맥반석 오징어",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "구이",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "225",
+    "id2": "225",
+    "Food Name": "라면",
+    "Category": "분식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "226",
+    "id2": "226",
+    "Food Name": "파닭",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "227",
+    "id2": "227",
+    "Food Name": "찹쌀떡",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "228",
+    "id2": "228",
+    "Food Name": "로이스초콜릿",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "초콜릿",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "229",
+    "id2": "229",
+    "Food Name": "어포",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "230",
+    "id2": "230",
+    "Food Name": "홍합탕",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "231",
+    "id2": "231",
+    "Food Name": "양구이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "232",
+    "id2": "232",
+    "Food Name": "백설기",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "233",
+    "id2": "233",
+    "Food Name": "단호박죽",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "234",
+    "id2": "234",
+    "Food Name": "오감자칠리",
+    "Category": "간식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "과자",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "235",
+    "id2": "235",
+    "Food Name": "장조림",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "236",
+    "id2": "236",
+    "Food Name": "청국장",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "237",
+    "id2": "237",
+    "Food Name": "우동",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "238",
+    "id2": "238",
+    "Food Name": "김칫국",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "239",
+    "id2": "239",
+    "Food Name": "야채곱창",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "240",
+    "id2": "240",
+    "Food Name": "몽쉘",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "241",
+    "id2": "241",
+    "Food Name": "오예스",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "242",
+    "id2": "242",
+    "Food Name": "꼬막",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "243",
+    "id2": "243",
+    "Food Name": "돼지껍데기",
+    "Category": "한식(안주)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "244",
+    "id2": "244",
+    "Food Name": "빈대떡",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "245",
+    "id2": "245",
+    "Food Name": "샤브샤브",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "246",
+    "id2": "246",
+    "Food Name": "오리훈제구이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "247",
+    "id2": "247",
+    "Food Name": "아침햇살",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "248",
+    "id2": "248",
+    "Food Name": "아구찜",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "249",
+    "id2": "249",
+    "Food Name": "전복구이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "250",
+    "id2": "250",
+    "Food Name": "항정살",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "251",
+    "id2": "251",
+    "Food Name": "무뼈닭발",
+    "Category": "한식(안주)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "252",
+    "id2": "252",
+    "Food Name": "산낙지",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "253",
+    "id2": "253",
+    "Food Name": "생간",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "254",
+    "id2": "254",
+    "Food Name": "뻥튀기",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "과자",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "255",
+    "id2": "255",
+    "Food Name": "찰보리밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "256",
+    "id2": "256",
+    "Food Name": "고구마스틱",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "과자",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "257",
+    "id2": "257",
+    "Food Name": "삼각커피우유",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "258",
+    "id2": "258",
+    "Food Name": "카스타드",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "259",
+    "id2": "259",
+    "Food Name": "육회",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "260",
+    "id2": "260",
+    "Food Name": "라볶이",
+    "Category": "분식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "261",
+    "id2": "261",
+    "Food Name": "제육볶음",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "262",
+    "id2": "262",
+    "Food Name": "취나물",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "263",
+    "id2": "263",
+    "Food Name": "꼬꼬면",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "264",
+    "id2": "264",
+    "Food Name": "오이냉국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "265",
+    "id2": "265",
+    "Food Name": "짜글이",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "266",
+    "id2": "266",
+    "Food Name": "소고기야채죽",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "267",
+    "id2": "267",
+    "Food Name": "닭갈비",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "268",
+    "id2": "268",
+    "Food Name": "쭈꾸미볶음",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "269",
+    "id2": "269",
+    "Food Name": "꼬마김밥",
+    "Category": "분식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "270",
+    "id2": "270",
+    "Food Name": "찹쌀탕수육",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "튀김",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "271",
+    "id2": "271",
+    "Food Name": "카레",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "272",
+    "id2": "272",
+    "Food Name": "양대창",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "273",
+    "id2": "273",
+    "Food Name": "가츠동",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "274",
+    "id2": "274",
+    "Food Name": "밥버거",
+    "Category": "분식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "275",
+    "id2": "275",
+    "Food Name": "갓김치",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "276",
+    "id2": "276",
+    "Food Name": "틈새라면",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "277",
+    "id2": "277",
+    "Food Name": "계란찜",
+    "Category": "FALSE",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "278",
+    "id2": "278",
+    "Food Name": "매운탕",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "279",
+    "id2": "279",
+    "Food Name": "홍어무침",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "280",
+    "id2": "280",
+    "Food Name": "꿔바로우",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "튀김",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "281",
+    "id2": "281",
+    "Food Name": "곶감",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "282",
+    "id2": "282",
+    "Food Name": "표고버섯볶음",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "283",
+    "id2": "283",
+    "Food Name": "오이김치",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "284",
+    "id2": "284",
+    "Food Name": "셀렉션",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "아이스크림",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "285",
+    "id2": "285",
+    "Food Name": "두유",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "286",
+    "id2": "286",
+    "Food Name": "주먹밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "287",
+    "id2": "287",
+    "Food Name": "립",
+    "Category": "FALSE",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "288",
+    "id2": "288",
+    "Food Name": "고르곤졸라 피자",
+    "Category": "양식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "289",
+    "id2": "289",
+    "Food Name": "꽃게랑",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "과자",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "290",
+    "id2": "290",
+    "Food Name": "고기만두",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "291",
+    "id2": "291",
+    "Food Name": "감자수제비",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "292",
+    "id2": "292",
+    "Food Name": "왕만두",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "293",
+    "id2": "293",
+    "Food Name": "참치마요",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "294",
+    "id2": "294",
+    "Food Name": "고기육수",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "295",
+    "id2": "295",
+    "Food Name": "규카츠",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "296",
+    "id2": "296",
+    "Food Name": "라멘",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "297",
+    "id2": "297",
+    "Food Name": "낙지호롱구이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "298",
+    "id2": "298",
+    "Food Name": "떡만두국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "299",
+    "id2": "299",
+    "Food Name": "초코퍼지",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "300",
+    "id2": "300",
+    "Food Name": "기름떡볶이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "301",
+    "id2": "301",
+    "Food Name": "염통",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "302",
+    "id2": "302",
+    "Food Name": "메로나",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "아이스크림",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "303",
+    "id2": "303",
+    "Food Name": "불초밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "304",
+    "id2": "304",
+    "Food Name": "잡채",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "305",
+    "id2": "305",
+    "Food Name": "스파클링와인",
+    "Category": "음료(술)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "306",
+    "id2": "306",
+    "Food Name": "부대찌개",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "307",
+    "id2": "307",
+    "Food Name": "부추김치",
+    "Category": "한식(반찬)",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "308",
+    "id2": "308",
+    "Food Name": "천엽",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "309",
+    "id2": "309",
+    "Food Name": "간짜장",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "310",
+    "id2": "310",
+    "Food Name": "꽃게탕",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "311",
+    "id2": "311",
+    "Food Name": "팥빙수",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "아이스크림",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "312",
+    "id2": "312",
+    "Food Name": "고구마피자",
+    "Category": "양식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "313",
+    "id2": "313",
+    "Food Name": "아구탕",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "314",
+    "id2": "314",
+    "Food Name": "내장볶음",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "315",
+    "id2": "315",
+    "Food Name": "두부김치",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "316",
+    "id2": "316",
+    "Food Name": "비름나물",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "317",
+    "id2": "317",
+    "Food Name": "조개구이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "318",
+    "id2": "318",
+    "Food Name": "목살",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "319",
+    "id2": "319",
+    "Food Name": "스테이크",
+    "Category": "양식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "320",
+    "id2": "320",
+    "Food Name": "버섯전골",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "321",
+    "id2": "321",
+    "Food Name": "간장치킨",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "322",
+    "id2": "322",
+    "Food Name": "스프링롤",
+    "Category": "베트남식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "323",
+    "id2": "323",
+    "Food Name": "북어탕",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "324",
+    "id2": "324",
+    "Food Name": "치즈곱창",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "325",
+    "id2": "325",
+    "Food Name": "쭈꾸미 숙회",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "326",
+    "id2": "326",
+    "Food Name": "인절미",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "327",
+    "id2": "327",
+    "Food Name": "쌈무",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "328",
+    "id2": "328",
+    "Food Name": "민물장어",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "329",
+    "id2": "329",
+    "Food Name": "간",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "330",
+    "id2": "330",
+    "Food Name": "인절미빙수",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "아이스크림",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "331",
+    "id2": "331",
+    "Food Name": "돈까스김밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "332",
+    "id2": "332",
+    "Food Name": "시래기국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "333",
+    "id2": "333",
+    "Food Name": "찐옥수수",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "334",
+    "id2": "334",
+    "Food Name": "민트초코우유",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "335",
+    "id2": "335",
+    "Food Name": "검은콩우유",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "336",
+    "id2": "336",
+    "Food Name": "뽀글이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "337",
+    "id2": "337",
+    "Food Name": "황태해장국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "338",
+    "id2": "338",
+    "Food Name": "동태전",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "339",
+    "id2": "339",
+    "Food Name": "설빙",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "아이스크림",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "340",
+    "id2": "340",
+    "Food Name": "탕평채",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "341",
+    "id2": "341",
+    "Food Name": "무지개케익",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "떡",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "342",
+    "id2": "342",
+    "Food Name": "소고기덮밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "343",
+    "id2": "343",
+    "Food Name": "등갈비",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "344",
+    "id2": "344",
+    "Food Name": "포카리스웨트",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "345",
+    "id2": "345",
+    "Food Name": "보쌈",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "346",
+    "id2": "346",
+    "Food Name": "짜장라면",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "347",
+    "id2": "347",
+    "Food Name": "쌀통닭",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "348",
+    "id2": "348",
+    "Food Name": "해파리냉채",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "349",
+    "id2": "349",
+    "Food Name": "돼지김치찌개",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "350",
+    "id2": "350",
+    "Food Name": "김치부침개",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "351",
+    "id2": "351",
+    "Food Name": "콩국수",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "c",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "352",
+    "id2": "352",
+    "Food Name": "동지팥죽",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "353",
+    "id2": "353",
+    "Food Name": "철판볶음밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "354",
+    "id2": "354",
+    "Food Name": "춘천닭갈비",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "355",
+    "id2": "355",
+    "Food Name": "가츠나베",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "356",
+    "id2": "356",
+    "Food Name": "깍두기밥",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "357",
+    "id2": "357",
+    "Food Name": "홍시",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "358",
+    "id2": "358",
+    "Food Name": "냉짬뽕",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "c",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "359",
+    "id2": "359",
+    "Food Name": "냉우동",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "c",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "360",
+    "id2": "360",
+    "Food Name": "더덕회무침",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "361",
+    "id2": "361",
+    "Food Name": "바지락칼국수",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "362",
+    "id2": "362",
+    "Food Name": "오꼬노미야끼",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "363",
+    "id2": "363",
+    "Food Name": "단호박식혜",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "364",
+    "id2": "364",
+    "Food Name": "녹차아이스크림",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "아이스크림",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "365",
+    "id2": "365",
+    "Food Name": "꽃게찜",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "366",
+    "id2": "366",
+    "Food Name": "감자전",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "367",
+    "id2": "367",
+    "Food Name": "아바이순대",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "368",
+    "id2": "368",
+    "Food Name": "매실주스",
+    "Category": "음료",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "369",
+    "id2": "369",
+    "Food Name": "구운김",
+    "Category": "한식(반찬)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "370",
+    "id2": "370",
+    "Food Name": "오뜨",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "371",
+    "id2": "371",
+    "Food Name": "조개관자구이",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "372",
+    "id2": "372",
+    "Food Name": "매운새우깡",
+    "Category": "간식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "과자",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "373",
+    "id2": "373",
+    "Food Name": "간짬뽕",
+    "Category": "중식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "374",
+    "id2": "374",
+    "Food Name": "피카츄돈까스",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "375",
+    "id2": "375",
+    "Food Name": "닭꼬치",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "376",
+    "id2": "376",
+    "Food Name": "명량핫도그",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "377",
+    "id2": "377",
+    "Food Name": "내장탕",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "378",
+    "id2": "378",
+    "Food Name": "흑돼지순댓국",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "379",
+    "id2": "379",
+    "Food Name": "차돌삼합",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "380",
+    "id2": "380",
+    "Food Name": "녹차빙수",
+    "Category": "디저트",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "아이스크림",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "381",
+    "id2": "381",
+    "Food Name": "불닭볶음면",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "382",
+    "id2": "382",
+    "Food Name": "이슬톡톡",
+    "Category": "음료(술)",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "383",
+    "id2": "383",
+    "Food Name": "오므라이스",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "384",
+    "id2": "384",
+    "Food Name": "오징어튀김",
+    "Category": "분식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "385",
+    "id2": "385",
+    "Food Name": "왕교자",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "386",
+    "id2": "386",
+    "Food Name": "죠리퐁",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "과자",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "387",
+    "id2": "387",
+    "Food Name": "김치찜",
+    "Category": "한식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "388",
+    "id2": "388",
+    "Food Name": "어묵탕",
+    "Category": "일식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "389",
+    "id2": "389",
+    "Food Name": "짜샤이",
+    "Category": "중식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "390",
+    "id2": "390",
+    "Food Name": "피자빵",
+    "Category": "간식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "빵",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "391",
+    "id2": "391",
+    "Food Name": "멘보샤",
+    "Category": "중식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "튀김",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "392",
+    "id2": "392",
+    "Food Name": "곤약",
+    "Category": "FALSE",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "FALSE",
+    "Hot/Cold": "c",
+    "Soup": "FALSE"
+  },
+  {
+    "id": "393",
+    "id2": "393",
+    "Food Name": "소머리국밥",
+    "Category": "한식",
+    "Spiciness": "FALSE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "394",
+    "id2": "394",
+    "Food Name": "마라탕",
+    "Category": "중식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "면",
+    "Hot/Cold": "h",
+    "Soup": "TRUE"
+  },
+  {
+    "id": "395",
+    "id2": "395",
+    "Food Name": "마라샹궈",
+    "Category": "중식",
+    "Spiciness": "TRUE",
+    "Rice/Noodle/Bread": "밥",
+    "Hot/Cold": "h",
+    "Soup": "FALSE"
+  }
+]

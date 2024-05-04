@@ -15,7 +15,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +25,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+      "expo-font",{
+        "fonts": ["./assets/fonts/SFPRODISPLAYREGULAR.otf"]
+      }
+    ]
+    ]
   }
 }
