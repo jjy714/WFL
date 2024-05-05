@@ -15,9 +15,13 @@ function ComputeResult(answers) {
 	// Hot or cold
 	// Soup or not
 	// Desert or not.
-    const Categories = ['Food Name', 'Category', 'Spiciness', 'Rice/Noodle/Bread', 'Hot/Cold', 'Soup' ]
 	for (var key in answers){
+        if(answers == null){
+            return console.log("no suggested answer available");
+        }
         try{
+        
+        
         if(key === 'Question1'){
             if(Object.values(answers).includes('hot')){
                 filteredData = jsonData.filter(item => item.Spiciness.includes('TRUE'));
@@ -53,14 +57,36 @@ function ComputeResult(answers) {
         if(key === 'Question3'){
             if(Object.values(answers).includes('Hot')){
                 // filteredData = filteredData.filter(item => item[Hot/Cold].includes('h'));
-                filteredData = filteredData.filter(item => item["Hot/Cold"].includes('h'));
+                filteredData = filteredData.filter(item => item["Hot/Cold"].includes('h') || item["Hot/Cold"].includes('Hot'));
             }
             
             else{
-                filteredData = filteredData.filter(item => item["Hot/Cold"].includes('c'));
+                filteredData = filteredData.filter(item => item["Hot/Cold"].includes('c') || item["Hot/Cold"].includes('Cold'));
             }
         }
-        if(key ==='Question4'){
+        if(key === 'Question4'){
+            if(Object.values(answers).includes('Rice')){
+                // filteredData = filteredData.filter(item => item[Hot/Cold].includes('h'));
+                filteredData = filteredData.filter(item => item["Rice/Noodle/Bread"].includes('밥'));
+            }
+            else if(Object.values(answers).includes('Noodle')){
+                filteredData = filteredData.filter(item => item["Rice/Noodle/Bread"].includes('면'));
+            }
+            else if(Object.values(answers).includes('Bread')){
+                filteredData = filteredData.filter(item => item["Rice/Noodle/Bread"].includes('빵'));
+            }
+            else{
+                filteredData = filteredData.filter(item => {
+                    const category = item["Rice/Noodle/Bread"];
+                    return !(
+                        category.includes('밥') ||
+                        category.includes('면') ||
+                        category.includes('빵')
+                    );
+                });
+            }
+        }
+        if(key ==='Question5'){
             if(Object.values(answers).includes('Yes')){
                 filteredData = filteredData.filter(item => item.Soup.includes('TRUE'));
             }

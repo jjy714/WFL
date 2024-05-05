@@ -1,5 +1,6 @@
-import React, { useState } from 'react'; 
+import React from 'react'; 
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'; 
+import { useState } from 'react';
 
 const CustomRadioButton = ({ label, selected, onSelect }) => ( 
     <TouchableOpacity 
@@ -15,8 +16,9 @@ const CustomRadioButton = ({ label, selected, onSelect }) => (
 ); 
 
 const OptionButton = ({ optionFactors, setSelectedValue, setSelected }) => {
+    
     const [selectedValue, setSelectedValueInternal] = useState('');
-
+    
     const handlePress = (option) => {
         setSelectedValue(option);
         setSelectedValueInternal(option);
@@ -26,29 +28,9 @@ const OptionButton = ({ optionFactors, setSelectedValue, setSelected }) => {
     return ( 
         <View style={styles.container}> 
             <CustomRadioButton 
-                label={optionFactors['option1']}
-                selected={selectedValue === optionFactors['option1']} 
-                onSelect={() => handlePress(optionFactors['option1'])}
-            /> 
-            <CustomRadioButton 
-                label={optionFactors['option2']}
-                selected={selectedValue === optionFactors['option2']} 
-                onSelect={() => handlePress(optionFactors['option2'])}
-            />
-            <CustomRadioButton 
-                label={optionFactors['option3']}
-                selected={selectedValue === optionFactors['option3']} 
-                onSelect={() => handlePress(optionFactors['option3'])}
-            /> 
-            <CustomRadioButton 
-                label={optionFactors['option4']}
-                selected={selectedValue === optionFactors['option4']} 
-                onSelect={() => handlePress(optionFactors['option4'])}
-            /> 
-            <CustomRadioButton 
-                label={optionFactors['option5']}
-                selected={selectedValue === optionFactors['option5']} 
-                onSelect={() => handlePress(optionFactors['option5'])}
+                label={optionFactors}
+                selected={selectedValue === optionFactors} 
+                onSelect={() => handlePress(optionFactors)}
             /> 
         </View> 
     ); 
@@ -56,7 +38,6 @@ const OptionButton = ({ optionFactors, setSelectedValue, setSelected }) => {
 
 const styles = StyleSheet.create({ 
     container: { 
-        flex: 1, 
         justifyContent: 'center', 
         alignItems: 'center', 
         backgroundColor: '#f2bb66', 

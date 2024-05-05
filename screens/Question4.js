@@ -5,6 +5,7 @@ import { useState } from "react";
 import SubmitButton from "../components/SubmitButton";
 import { RadioButton } from 'react-native-paper'; 
 import BinaryButton from "../components/BinaryButton";
+import OptionButton from "../components/OptionButton";
 
 const Question4 = () => {
 
@@ -14,8 +15,10 @@ const Question4 = () => {
 
 
   const optionFactors = {
-    option1: 'Yes',
-    option2: 'No',
+    option1: 'Rice',
+    option2: 'Noodle',
+    option3: 'Bread',
+    option4: 'None of the Above(REALLY RANDOM!)'
   }
 
   const handleSelectOption = (option) => {
@@ -30,13 +33,28 @@ const Question4 = () => {
 
   return (
     <View style={Styles.container}>      
-      <Text style={Styles.HomeText}> Would you like your food with soup? </Text>
+      <Text style={Styles.HomeText}> Would you like your food Rice, Noodle, Bread, or else? </Text>
       <View style={Styles.optionsContainer}></View>
-      <BinaryButton 
-          optionFactors={optionFactors} 
-          setSelectedValue={handleSelectOption}
-          setSelected={handleSubmission}
-        />
+      <OptionButton 
+        optionFactors={optionFactors['option1']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
+      <OptionButton 
+        optionFactors={optionFactors['option2']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
+      <OptionButton 
+        optionFactors={optionFactors['option3']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
+      <OptionButton 
+        optionFactors={optionFactors['option4']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
       <SubmitButton 
       question={'Question4'}
           onSubmit={isSelected} 

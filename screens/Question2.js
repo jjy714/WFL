@@ -35,7 +35,27 @@ const Question2 = () => {
     <View style={Styles.container}>      
       <Text style={Styles.HomeText}> Which Category of Food would you like? </Text>
       <OptionButton 
-        optionFactors={optionFactors} 
+        optionFactors={optionFactors['option1']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
+      <OptionButton 
+        optionFactors={optionFactors['option2']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
+      <OptionButton 
+        optionFactors={optionFactors['option3']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
+      <OptionButton 
+        optionFactors={optionFactors['option4']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
+      <OptionButton 
+        optionFactors={optionFactors['option5']} 
         setSelectedValue={handleSelectOption} 
         setSelected={handleSubmission}
       />

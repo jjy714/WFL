@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import SubmitButton from "../components/SubmitButton";
 import BinaryButton from "../components/BinaryButton";
+import OptionButton from "../components/OptionButton";
 
 const Question3 = () => {
   const [selectedOption, setSelectedOption] = useState(null);
@@ -25,11 +26,16 @@ const Question3 = () => {
       <Text style={Styles.HomeText}> Would you like your food Hot or Cold? </Text>
 
       <View style={Styles.optionsContainer}>
-        <BinaryButton 
-          optionFactors={optionFactors} 
-          setSelectedValue={handleSelectOption}
-          setSelected={handleSubmission}
-        />
+      <OptionButton 
+        optionFactors={optionFactors['option1']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
+      <OptionButton 
+        optionFactors={optionFactors['option2']} 
+        setSelectedValue={handleSelectOption} 
+        setSelected={handleSubmission}
+      />
       </View>
 
       <SubmitButton 

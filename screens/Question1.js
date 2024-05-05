@@ -14,9 +14,8 @@ const Question1 = () => {
 	const optionFactors = {
 		option1: "Not spicy",
 		option2: "Little spicy",
-		option3: "Medium spicy",
-		option4: "Little hot",
-		option5: "Very hot",
+		option3: "Medium spicy(About Shin ramyen)",
+		option4: "Very hot(About Buldak)",
 	};
 
 	const handleSelectOption = (option) => {
@@ -30,11 +29,25 @@ const Question1 = () => {
 	return (
 		<View style={Styles.container}>
 			<Text style={Styles.HomeText}>
-				{" "}
 				How Spicy do you want your food?
 			</Text>
 			<OptionButton
-				optionFactors={optionFactors}
+				optionFactors={optionFactors["option1"]}
+				setSelectedValue={handleSelectOption}
+				setSelected={handleSubmission}
+			/>
+			<OptionButton
+				optionFactors={optionFactors['option2']}
+				setSelectedValue={handleSelectOption}
+				setSelected={handleSubmission}
+			/>
+			<OptionButton
+				optionFactors={optionFactors['option3']}
+				setSelectedValue={handleSelectOption}
+				setSelected={handleSubmission}
+			/>
+			<OptionButton
+				optionFactors={optionFactors['option4']}
 				setSelectedValue={handleSelectOption}
 				setSelected={handleSubmission}
 			/>
