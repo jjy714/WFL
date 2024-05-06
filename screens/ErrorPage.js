@@ -8,7 +8,7 @@ import RandomResult from "../Functions/RandomResult";
 const ErrorPage = () => {
     const navigation = useNavigation();
     return (
-        <View>
+        <View style = {Styles.container}>
             <Text style={Styles.HomeText}>
                 Messing around are we? HAHA. Just Joking. There's no food for that condtion. Try again!
             </Text>
@@ -41,7 +41,6 @@ const Styles = StyleSheet.create({
     },
     subtext:{
         fontSize: 20,
-        fontWeight: 'italic',
         textAlign: 'center'   
     },
     button: {

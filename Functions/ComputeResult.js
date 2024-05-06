@@ -9,7 +9,7 @@ function queryData(filter, data) {
 
 let filteredData = [];
 function ComputeResult(answers) {
-	const jsonData = require("../food_data.json");
+	const jsonData = require("../data/food_data_copy.json");
 	//If the answer is spicy or not
 	// What kind of food?
 	// Hot or cold
