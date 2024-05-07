@@ -10,7 +10,7 @@ const ErrorPage = () => {
     return (
         <View style = {Styles.container}>
             <Text style={Styles.HomeText}>
-                Messing around are we? HAHA. Just Joking. There's no food for that condtion. Try again!
+                There's no food for that condtion. Maybe Another Choice?
             </Text>
             <View style={{ marginTop: 70 }} />
             <TouchableOpacity
@@ -32,7 +32,7 @@ const Styles = StyleSheet.create({
         alignItems: "center",
         padding: 1,
         marginBottom: 30,
-        backgroundColor: "#f2bb66", // 배경색상 추가
+        backgroundColor: "#f2bb66", 
     },
     HomeText: {
         fontSize: 25,

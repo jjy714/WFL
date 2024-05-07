@@ -16,8 +16,9 @@ function ComputeResult(answers) {
 	// Soup or not
 	// Desert or not.
 	for (var key in answers){
-        if(answers == null){
-            return console.log("no suggested answer available");
+        if(!answers){
+            console.log("no suggested answer available");
+            return [];
         }
         try{
         

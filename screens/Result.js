@@ -16,28 +16,32 @@ import ErrorPage from "./ErrorPage";
 const Result = () => {
     const navigation = useNavigation();
     const { answer } = useContext(resultContext);
-    const [refreshing, setRefreshing] = useState(false); // State to manage refreshing
+    const [refreshing, setRefreshing] = useState(false); 
     let SuccessCondition = true;
-    // Function to handle refresh
+
     const onRefresh = () => {
         setRefreshing(true);
         setTimeout(() => {
             setRefreshing(false);
-        }, 1000); // Specify the duration (in milliseconds), e.g., 1000ms (1 second)
+        }, 1000); 
     };
-    if (answer == undefined){
+    const computedResults = ComputeResult(answer);
+    if (!computedResults || computedResults.length === 0){
         SuccessCondition = false;
     }
-    else{
-        const prefinalAnswer = RandomResult(ComputeResult(answer))["Food Name"];
-        
+    let prefinalAnswer;
+    if (SuccessCondition) {
+        const randomResult = RandomResult(computedResults);
+        if (randomResult) {
+            prefinalAnswer = randomResult["Food Name"];
+        } else {
+            SuccessCondition = false;
+        }
     }
-    const value = answer ? (prefinalAnswer ? prefinalAnswer : undefined) : undefined;
-    
-    if (value == undefined) {
+    if (prefinalAnswer === undefined) {
         SuccessCondition = false;
     }
-
+   
     return (
         <View style={Styles.container}>
             {SuccessCondition ? (
@@ -52,7 +56,7 @@ const Result = () => {
                     }
                 >
                     <Text style={Styles.HomeText}>
-                        {value ? `What about ${value} for today's lunch?` : 'No suggestion available.'}
+                        {prefinalAnswer ? `What about ${prefinalAnswer} for today's lunch?` : 'No suggestion available.'}
                     </Text>
                     <Text style={Styles.subtext}>
                         {" "}
@@ -82,7 +86,7 @@ const Styles = StyleSheet.create({
         alignItems: "center",
         padding: 1,
         marginBottom: 30,
-        backgroundColor: "#f2bb66", // 배경색상 추가
+        backgroundColor: "#f2bb66", 
     },
     HomeText: {
         fontSize: 25,

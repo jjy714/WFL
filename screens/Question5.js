@@ -18,7 +18,6 @@ const Question5 = () => {
 
 	const handleSelectOption = (option) => {
 		setSelectedOption(option);
-		// You can perform any additional actions here when an option is selected
 	};
 
 	const handleSubmission = (value) => {
@@ -70,6 +69,6 @@ const Styles = StyleSheet.create({
 		marginBottom: 20,
 	},
 	submitButton: {
-		marginTop: 20, // Add margin top for spacing between SubmitButton and options
+		marginTop: 20, 
 	},
 });

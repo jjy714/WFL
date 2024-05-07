@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "WFL",
-    "slug": "WFL",
+    "slug": "wfl",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/8382732.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "/Users/jason/Projects/HCIAppProject/WFL/assets/bundle/iOS/LaunchImage.launchimage",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,23 +15,34 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ssabsari.wfl"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ssabsari.wfl"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       [
-      "expo-font",{
-        "fonts": ["./assets/fonts/SFPRODISPLAYREGULAR.otf"]
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/SFPRODISPLAYREGULAR.otf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8b8b04cb-0233-4152-af9e-c63c85665fa5"
       }
-    ]
-    ]
+    },
+    "owner": "ssabsari"
   }
 }

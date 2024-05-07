@@ -43,32 +43,50 @@ const Question3 = () => {
         onSubmit={isSelected} 
         answer={selectedOption} 
         nextPage={'Question4'}
-        style={Styles.submitButton} // Add custom style for SubmitButton
+        style={Styles.submitButton} 
       />
     </View>
   );
 };
 
 const Styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f2bb66',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  HomeText: {
-    fontSize: 30,
-    textAlign: "center",
-    marginTop: "10%",
-    marginBottom: "10%",
-  },
-  optionsContainer: {
-    marginTop: 20,
-    marginBottom: 20,
-  },
-  submitButton: {
-    marginTop: 20, // Add margin top for spacing between SubmitButton and options
-  },
+	container: {
+		flex: 1,
+		backgroundColor: "#f2bb66",
+		justifyContent: "center",
+		alignItems: "center",
+	},
+	HomeText: {
+		fontSize: 25,
+		fontWeight: "bold",
+		// flex: 1,
+		textAlign: "center",
+		marginTop: "40%",
+	},
+	questionText: {
+		fontSize: 20,
+		marginBottom: "10%",
+		textAlign: "center",
+	},
+	NextBottom: {
+		backgroundColor: "Blue",
+		padding: 3,
+		flex: 1,
+		marginTop: "20%",
+		width: "50%",
+		alignSelf: "center",
+		borderRadius: 10,
+	},
+	BottomText: {
+		fontSize: 15,
+		marginTop: 15,
+		color: "black",
+		textAlign: "center",
+	},
+	optionsContainer: {
+		marginTop: 20,
+		marginBottom: 20,
+	},
 });
 
 export default Question3;
