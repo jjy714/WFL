@@ -1,5 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from "@react-navigation/native";
 
 import Title from "./screens/Title";
@@ -9,33 +10,42 @@ import Question3 from "./screens/Question3";
 import Question4 from "./screens/Question4";
 import Question5 from "./screens/Question5";
 import Result from "./screens/Result";
+import Login from "./screens/Login";
+import Settings from "./screens/Settings";
 
 const Stack = createStackNavigator();
+const Drawer = createDrawerNavigator();
 
 function StackScreen() {
-  
-  
   return (
+    <Stack.Navigator initialRouteName="Title">
+      <Stack.Screen name="HomePage" component={Title} options={{ headerShown: false }} />
+      <Stack.Screen name="Question1" component={Question1} options={{ headerShown: false }} />
+      <Stack.Screen name="Question2" component={Question2} options={{ headerShown: false }}/>
+      <Stack.Screen name="Question3" component={Question3} options={{ headerShown: false }} />
+      <Stack.Screen name="Question4" component={Question4} options={{ headerShown: false }}/>
+      <Stack.Screen name="Question5" component={Question5} options={{ headerShown: false }}/>
+      <Stack.Screen name="Result" component={Result} options={{ headerShown: false }} />
+    </Stack.Navigator>
+  );
+}
 
-      <Stack.Navigator initialRouteName="Title">
-        <Stack.Screen name="Home" component={Title} />
-        <Stack.Screen name="Question1" component={Question1} />
-        <Stack.Screen name="Question2" component={Question2} />
-        <Stack.Screen name="Question3" component={Question3} />
-        <Stack.Screen name="Question4" component={Question4} />
-        <Stack.Screen name="Question5" component={Question5} />
-        <Stack.Screen name="Result" component={Result} />
-      </Stack.Navigator>
-
-	);
+function MyDrawer() {
+  return (
+    <Drawer.Navigator initialRouteName="Home">
+      <Drawer.Screen name="Home" component={StackScreen} options={{headerTransparent:true, headerTitle:''}} />
+      <Drawer.Screen name="Login" component={Login} />
+      <Drawer.Screen name="Settings" component={Settings} />
+    </Drawer.Navigator>
+  );
 }
 
 function Navigation() {
-	return (
-		<NavigationContainer>
-			<StackScreen />
-		</NavigationContainer>
-	);
+  return (
+    <NavigationContainer>
+      <MyDrawer />
+    </NavigationContainer>
+  );
 }
 
 export default Navigation;

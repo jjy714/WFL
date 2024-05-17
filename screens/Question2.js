@@ -60,6 +60,7 @@ const Question2 = () => {
         setSelected={handleSubmission}
       />
       <SubmitButton 
+      title = "NEXT"
       question={'Question2'}
         onSubmit={isSelected} 
         answer={selectedOption} 

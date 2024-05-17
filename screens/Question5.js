@@ -40,6 +40,7 @@ const Question5 = () => {
 				setSelected={handleSubmission}
 			/>
 			<SubmitButton
+				title = "SUBMIT"
 				question={"Question5"}
 				onSubmit={isSelected}
 				answer={selectedOption}
@@ -61,8 +62,9 @@ const Styles = StyleSheet.create({
 	HomeText: {
 		fontSize: 30,
 		textAlign: "center",
-		marginTop: "10%",
+		marginTop: "40%",
 		marginBottom: "10%",
+		fontWeight: 'bold'
 	},
 	optionsContainer: {
 		marginTop: 20,

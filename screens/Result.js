@@ -59,12 +59,10 @@ const Result = () => {
                         {prefinalAnswer ? `What about ${prefinalAnswer} for today's lunch?` : 'No suggestion available.'}
                     </Text>
                     <Text style={Styles.subtext}>
-                        {" "}
                         Pull down for another random suggestion!{" "}
                     </Text>
-                    <View style={{ marginTop: 70 }} />
                     <TouchableOpacity
-                        onPress={() => navigation.navigate("Home")}
+                        onPress={() => navigation.navigate("HomePage")}
                         style={Styles.button}
                     >
                         <Text style={Styles.buttonText}>Home</Text>
@@ -84,8 +82,6 @@ const Styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        padding: 1,
-        marginBottom: 30,
         backgroundColor: "#f2bb66", 
     },
     HomeText: {

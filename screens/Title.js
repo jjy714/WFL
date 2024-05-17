@@ -4,7 +4,6 @@ import StartButton from "../components/StartButton";
 export default function Title({navigation}) {
   
     return (
-  
       <View style={styles.container}>
         <Text style={styles.title}> WFL</Text>
         <Text style={styles.HomeText} > What's For Lunch?</Text>
@@ -28,7 +27,7 @@ export default function Title({navigation}) {
       fontWeight: "bold",
       alignSelf: "center",
       padding: 1,
-      marginTop: 200
+      marginTop: 300
     },
     HomeText: {
       fontSize: 30,

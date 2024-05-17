@@ -39,6 +39,7 @@ const Question3 = () => {
       </View>
 
       <SubmitButton 
+	  	title="NEXT"
         question={'Question3'}
         onSubmit={isSelected} 
         answer={selectedOption} 

@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 import { resultContext } from "../App";
 import { useContext } from "react";
 
-const SubmitButton = ({ question, onSubmit, answer, nextPage }) => {
+const SubmitButton = ({title, question, onSubmit, answer, nextPage }) => {
     // const useContext // use context
 	const navigation = useNavigation();
     const {updateAnswers} = useContext(resultContext)
@@ -22,7 +22,7 @@ const SubmitButton = ({ question, onSubmit, answer, nextPage }) => {
 
 	return (
 		<TouchableOpacity style={styles.button} onPress={handlePress}>
-			<Text style={styles.buttonText}>SUBMIT</Text>
+			<Text style={styles.buttonText}>{title}</Text>
 		</TouchableOpacity>
 	);
 };
