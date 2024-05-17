@@ -2,6 +2,8 @@ import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from "@react-navigation/native";
+import { Ionicons } from '@expo/vector-icons';
+
 
 import Title from "./screens/Title";
 import Question1 from "./screens/Question1";
@@ -13,6 +15,8 @@ import Result from "./screens/Result";
 import Login from "./screens/Login";
 import Settings from "./screens/Settings";
 import Signup from "./screens/Signup";
+import Home from "./App";
+
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -33,15 +37,59 @@ function StackScreen() {
 
 
 function MyDrawer() {
-  return (
-    <Drawer.Navigator initialRouteName="Home">
-      <Drawer.Screen name="Home" component={StackScreen} options={{headerTransparent:true, headerTitle:''}} />
-      <Drawer.Screen name="Login" component={Login} />
-      <Drawer.Screen name="Register" component={Signup} />
-      <Drawer.Screen name="Settings" component={Settings} />
-    </Drawer.Navigator>
-  );
-}
+    return (
+      <Drawer.Navigator initialRouteName="Home">
+        <Drawer.Screen 
+          name=" " 
+          component={StackScreen} 
+          options={{
+            headerTransparent: true, 
+            headerTitle: '', 
+            drawerIcon: ({ color, size }) => (
+              <Ionicons name="home-outline" color={color} size={size} />
+            )
+          }} 
+        />
+        <Drawer.Screen 
+          name="Home" 
+          component={Title} 
+          options={{ 
+            headerTransparent: true,
+            drawerIcon: ({ color, size }) => (
+              <Ionicons name="home-outline" color={color} size={size} />
+            ),
+          }} 
+        />
+        <Drawer.Screen 
+          name="Login" 
+          component={Login} 
+          options={{
+            drawerIcon: ({ color, size }) => (
+              <Ionicons name="log-in-outline" color={color} size={size} />
+            ),
+          }} 
+        />
+        <Drawer.Screen 
+          name="Register" 
+          component={Signup} 
+          options={{
+            drawerIcon: ({ color, size }) => (
+              <Ionicons name="person-add-outline" color={color} size={size} />
+            ),
+          }} 
+        />
+        <Drawer.Screen 
+          name="Settings" 
+          component={Settings} 
+          options={{
+            drawerIcon: ({ color, size }) => (
+              <Ionicons name="settings-outline" color={color} size={size} />
+            ),
+          }} 
+        />
+      </Drawer.Navigator>
+    );
+  }
 
 function Navigation() {
   return (

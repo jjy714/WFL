@@ -11,19 +11,14 @@ const Login = ({ navigation }) => {
     const [isPasswordShown, setIsPasswordShown] = useState(false);
     const [isChecked, setIsChecked] = useState(false);
 
-
-	const [user, setUser] = useState([]);
 	const [username, setUsername] = useState('');
 	const [password, setPassword] = useState(null);
 
-	useEffect(() => {
-		fetchUser();
-	},[]);
-
 	const fetchUser = async() =>  {
 		try {
-			const reponse = await axios.get(`http://127.0.0.1:8000/$(user)`)
-			console.log("GET request: ", reponse.data)
+			const user = {username, password}
+			const reponse = await axios.post(`http://127.0.0.1:8000/backend/`)
+			console.log("POST request: ", reponse.data)
 			setUser(response.data)
 		} catch (error) {
 			console.log(error)
@@ -46,7 +41,7 @@ const Login = ({ navigation }) => {
                             placeholder="Enter your user name"
                             placeholderTextColor={COLORS.black}
                             keyboardType="ascii-capable"
-							onTextInput={setUsername}
+							onChangeText={setUsername}
                             style={styles.input}
                         />
                     </View>
@@ -59,7 +54,7 @@ const Login = ({ navigation }) => {
                             placeholder="Enter your password"
                             placeholderTextColor={COLORS.black}
                             secureTextEntry={!isPasswordShown}
-							onTextInput={setPassword}
+							onChangeText={setPassword}
                             style={styles.input}
                         />
                         <TouchableOpacity
@@ -79,7 +74,7 @@ const Login = ({ navigation }) => {
                     <Checkbox
                         style={styles.checkbox}
                         value={isChecked}
-                        onValueChange={setIsChecked}
+                        onChangeText={setIsChecked}
                         color={isChecked ? COLORS.primary : undefined}
                     />
                     <Text>Remember Me</Text>
