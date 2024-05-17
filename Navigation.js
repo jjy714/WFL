@@ -12,6 +12,7 @@ import Question5 from "./screens/Question5";
 import Result from "./screens/Result";
 import Login from "./screens/Login";
 import Settings from "./screens/Settings";
+import Signup from "./screens/Signup";
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -30,11 +31,13 @@ function StackScreen() {
   );
 }
 
+
 function MyDrawer() {
   return (
     <Drawer.Navigator initialRouteName="Home">
       <Drawer.Screen name="Home" component={StackScreen} options={{headerTransparent:true, headerTitle:''}} />
       <Drawer.Screen name="Login" component={Login} />
+      <Drawer.Screen name="Register" component={Signup} />
       <Drawer.Screen name="Settings" component={Settings} />
     </Drawer.Navigator>
   );
