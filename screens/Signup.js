@@ -28,10 +28,10 @@ const Signup = ({ navigation }) => {
 		try {
 			const newUser = { username, password, password2 };
 			const response = await axios.post(
-				`http://127.0.0.1:8000/backend/user/register/`,newUser
+				'http://127.0.0.1:8000/backend/user/register/',newUser
 			);
 			console.log("POST request: ", response.data);
-			Navigation.navigate("Title");
+			navigation.navigate("Home");
 
 			// Handle the response as needed, such as setting user state or checking for duplicates
 		} catch (error) {
@@ -49,7 +49,7 @@ const Signup = ({ navigation }) => {
 				<View style={styles.headerContainer}>
 					<Text style={styles.headerTitle}>Create Account</Text>
 					<Text style={styles.headerSubtitle}>
-						Look back at your lunch and more!
+						Sign up to store your history!
 					</Text>
 				</View>
 

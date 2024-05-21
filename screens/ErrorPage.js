@@ -14,7 +14,7 @@ const ErrorPage = () => {
             </Text>
             <View style={{ marginTop: 70 }} />
             <TouchableOpacity
-                onPress={() => navigation.navigate("Home")}
+                onPress={() => navigation.navigate("HomePage")}
                 style={Styles.button}
             >
                 <Text style={Styles.buttonText}>Try again</Text>

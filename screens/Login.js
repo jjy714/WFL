@@ -6,22 +6,27 @@ import { Ionicons } from '@expo/vector-icons';
 import Checkbox from 'expo-checkbox';
 import Button from '../components/Button';
 import axios from 'axios';
+import Navigation from '../Navigation';
 
 const Login = ({ navigation }) => {
     const [isPasswordShown, setIsPasswordShown] = useState(false);
     const [isChecked, setIsChecked] = useState(false);
 
 	const [username, setUsername] = useState('');
-	const [password, setPassword] = useState(null);
+	const [password, setPassword] = useState('');
 
 	const fetchUser = async() =>  {
 		try {
 			const user = {username, password}
-			const reponse = await axios.post(`http://127.0.0.1:8000/backend/`)
-			console.log("POST request: ", reponse.data)
-			setUser(response.data)
+			const response = await axios.post(`http://127.0.0.1:8000/backend/user/login/`, user)
+			const token = response.data.token
+			console.log("Token: ",token)
+			console.log("POST request: ", response.data)
+			navigation.navigate("Home")
+			// setUser(response.data)
 		} catch (error) {
 			console.log(error)
+			alert("ID not found!")
 		}
 	}
 
@@ -62,7 +67,7 @@ const Login = ({ navigation }) => {
                             style={styles.eyeIcon}
                         >
                             <Ionicons 
-                                name={isPasswordShown ? "eye-off" : "eye"} 
+                                name={isPasswordShown ? "eye" : "eye-off"} 
                                 size={24} 
                                 color={COLORS.black} 
                             />

@@ -24,7 +24,7 @@ function ComputeResult(answers) {
         
         
         if(key === 'Question1'){
-            if(Object.values(answers).includes('hot')){
+            if(Object.values(answers).includes('hot' || 'Medium')){
                 filteredData = jsonData.filter(item => item.Spiciness.includes('TRUE'));
             }
             else{

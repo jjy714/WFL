@@ -16,6 +16,7 @@ import Login from "./screens/Login";
 import Settings from "./screens/Settings";
 import Signup from "./screens/Signup";
 import Home from "./App";
+import RestaurantList from "./screens/RestaurantList";
 
 
 const Stack = createStackNavigator();
@@ -23,7 +24,7 @@ const Drawer = createDrawerNavigator();
 
 function StackScreen() {
   return (
-    <Stack.Navigator initialRouteName="Title">
+    <Stack.Navigator initialRouteName="HomePage">
       <Stack.Screen name="HomePage" component={Title} options={{ headerShown: false }} />
       <Stack.Screen name="Question1" component={Question1} options={{ headerShown: false }} />
       <Stack.Screen name="Question2" component={Question2} options={{ headerShown: false }}/>
@@ -31,6 +32,7 @@ function StackScreen() {
       <Stack.Screen name="Question4" component={Question4} options={{ headerShown: false }}/>
       <Stack.Screen name="Question5" component={Question5} options={{ headerShown: false }}/>
       <Stack.Screen name="Result" component={Result} options={{ headerShown: false }} />
+      <Stack.Screen name="Recommendation" component={RestaurantList} options={{hedaerShown:false}}/>
     </Stack.Navigator>
   );
 }
@@ -40,7 +42,7 @@ function MyDrawer() {
     return (
       <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen 
-          name=" " 
+          name="Home" 
           component={StackScreen} 
           options={{
             headerTransparent: true, 
@@ -50,16 +52,7 @@ function MyDrawer() {
             )
           }} 
         />
-        <Drawer.Screen 
-          name="Home" 
-          component={Title} 
-          options={{ 
-            headerTransparent: true,
-            drawerIcon: ({ color, size }) => (
-              <Ionicons name="home-outline" color={color} size={size} />
-            ),
-          }} 
-        />
+        
         <Drawer.Screen 
           name="Login" 
           component={Login} 

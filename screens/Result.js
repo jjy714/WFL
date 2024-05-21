@@ -62,6 +62,12 @@ const Result = () => {
                         Pull down for another random suggestion!{" "}
                     </Text>
                     <TouchableOpacity
+                        onPress={() => navigation.navigate("Recommendation")}
+                        style={Styles.button}
+                    >
+                        <Text style={Styles.buttonText}>Restaurant Recommendation</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
                         onPress={() => navigation.navigate("HomePage")}
                         style={Styles.button}
                     >
