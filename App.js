@@ -3,6 +3,7 @@ import { Button, StyleSheet, Text, View } from "react-native";
 import Navigation from "./Navigation";
 import { useContext, useState } from "react";
 import { createContext } from "react";
+import { LoginProvider } from "./Functions/LoginProvider";
 
 
 export const resultContext = createContext();
@@ -13,10 +14,12 @@ export const defaultAnsFromQuestions = {
 	Question4: "",
 	Question5: "",
 };
+
 export default function Home() {
 	
 	const [answer, setAnswer] = useState(defaultAnsFromQuestions);
-	
+
+
 	const updateAnswers = (question, answer) => {
 		setAnswer(prevState => ({
 		  ...prevState,
@@ -26,9 +29,11 @@ export default function Home() {
 	  
 	return (
 		<View style={styles.container}>
+			<LoginProvider>
 			<resultContext.Provider value={{ answer, updateAnswers }}>
 				<Navigation />
 			</resultContext.Provider>
+			</LoginProvider>
 		</View>
 	);
 }

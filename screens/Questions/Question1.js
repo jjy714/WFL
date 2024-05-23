@@ -2,10 +2,10 @@ import React, { createContext, useContext, useEffect } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { useState } from "react";
-import SubmitButton from "../components/SubmitButton";
+import SubmitButton from "../../components/SubmitButton";
 import { RadioButton } from "react-native-paper";
-import OptionButton from "../components/OptionButton";
-import { resultContext } from "../App";
+import OptionButton from "../../components/OptionButton";
+import { resultContext } from "../../App";
 
 const Question1 = () => {
 	const [selectedOption, setSelectedOption] = useState(null);

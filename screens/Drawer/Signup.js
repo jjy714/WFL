@@ -9,12 +9,11 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import COLORS from "../constants/colors";
+import COLORS from "../../constants/colors";
 import { Ionicons } from "@expo/vector-icons";
 import Checkbox from "expo-checkbox";
-import Button from "../components/Button";
+import Button from "../../components/Button";
 import axios from "axios";
-import Navigation from "../Navigation";
 
 const Signup = ({ navigation }) => {
 	const [isPasswordShown, setIsPasswordShown] = useState(false);
@@ -37,7 +36,7 @@ const Signup = ({ navigation }) => {
 		} catch (error) {
 			console.log(error);
             if (error === "[AxiosError: Request failed with status code 400]"){
-                alert("ID already exists!")
+                alert("ID already exists")
             }
 			alert("Register Failed!");
 		}
@@ -143,7 +142,7 @@ const Signup = ({ navigation }) => {
 						style={styles.socialButton}
 					>
 						<Image
-							source={require("../assets/facebook.png")}
+							source={require("../../assets/facebook.png")}
 							style={styles.socialIcon}
 							resizeMode="contain"
 						/>
@@ -155,7 +154,7 @@ const Signup = ({ navigation }) => {
 						style={styles.socialButton}
 					>
 						<Image
-							source={require("../assets/google.png")}
+							source={require("../../assets/google.png")}
 							style={styles.socialIcon}
 							resizeMode="contain"
 						/>

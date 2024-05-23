@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, RefreshControl } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import { resultContext } from "../App";
-import ComputeResult from "../Functions/ComputeResult";
-import RandomResult from "../Functions/RandomResult";
+import { resultContext } from "../../App";
+import ComputeResult from "../../Functions/ComputeResult";
+import RandomResult from "../../Functions/RandomResult";
 
 const ErrorPage = () => {
     const navigation = useNavigation();

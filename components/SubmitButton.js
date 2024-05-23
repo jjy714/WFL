@@ -9,6 +9,8 @@ const SubmitButton = ({title, question, onSubmit, answer, nextPage }) => {
 	const navigation = useNavigation();
     const {updateAnswers} = useContext(resultContext)
 	
+	const updateHistory = 0;
+
     const handlePress = () => {
 		console.log("Next Page:", nextPage);
         if (onSubmit) {

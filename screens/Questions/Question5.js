@@ -2,20 +2,18 @@ import React, { createContext, useEffect } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { useState } from "react";
-import SubmitButton from "../components/SubmitButton";
+import SubmitButton from "../../components/SubmitButton";
 import { RadioButton } from "react-native-paper";
-import BinaryButton from "../components/BinaryButton";
-import OptionButton from "../components/OptionButton";
+import BinaryButton from "../../components/BinaryButton";
+import OptionButton from "../../components/OptionButton";
 
-const Question4 = () => {
+const Question5 = () => {
 	const [selectedOption, setSelectedOption] = useState(null);
 	const [isSelected, setSelected] = useState(false);
 
 	const optionFactors = {
-		option1: "Rice",
-		option2: "Noodle",
-		option3: "Bread",
-		option4: "None of the Above(REALLY RANDOM!)",
+		option1: "Yes",
+		option2: "No",
 	};
 
 	const handleSelectOption = (option) => {
@@ -29,10 +27,8 @@ const Question4 = () => {
 	return (
 		<View style={Styles.container}>
 			<Text style={Styles.HomeText}>
-				{" "}
-				Would you like your food Rice, Noodle, Bread, or else?{" "}
+				Would you like soup with your food?
 			</Text>
-
 			<OptionButton
 				optionFactors={optionFactors["option1"]}
 				setSelectedValue={handleSelectOption}
@@ -43,29 +39,18 @@ const Question4 = () => {
 				setSelectedValue={handleSelectOption}
 				setSelected={handleSubmission}
 			/>
-			<OptionButton
-				optionFactors={optionFactors["option3"]}
-				setSelectedValue={handleSelectOption}
-				setSelected={handleSubmission}
-			/>
-			<OptionButton
-				optionFactors={optionFactors["option4"]}
-				setSelectedValue={handleSelectOption}
-				setSelected={handleSubmission}
-			/>
 			<SubmitButton
-				title="NEXT"
-				question={"Question4"}
+				title = "SUBMIT"
+				question={"Question5"}
 				onSubmit={isSelected}
 				answer={selectedOption}
-				nextPage={"Question5"}
-				style={Styles.submitButton}
+				nextPage={"Result"}
 			/>
 		</View>
 	);
 };
 
-export default Question4;
+export default Question5;
 
 const Styles = StyleSheet.create({
 	container: {
@@ -75,34 +60,17 @@ const Styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	HomeText: {
-		fontSize: 25,
-		fontWeight: "bold",
-		// flex: 1,
+		fontSize: 30,
 		textAlign: "center",
 		marginTop: "40%",
-	},
-	questionText: {
-		fontSize: 20,
 		marginBottom: "10%",
-		textAlign: "center",
-	},
-	NextBottom: {
-		backgroundColor: "Blue",
-		padding: 3,
-		flex: 1,
-		marginTop: "20%",
-		width: "50%",
-		alignSelf: "center",
-		borderRadius: 10,
-	},
-	BottomText: {
-		fontSize: 15,
-		marginTop: 15,
-		color: "black",
-		textAlign: "center",
+		fontWeight: 'bold'
 	},
 	optionsContainer: {
 		marginTop: 20,
 		marginBottom: 20,
+	},
+	submitButton: {
+		marginTop: 20, 
 	},
 });

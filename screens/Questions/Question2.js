@@ -2,9 +2,9 @@ import React, { createContext, useEffect } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { useState } from "react";
-import SubmitButton from "../components/SubmitButton";
+import SubmitButton from "../../components/SubmitButton";
 import { RadioButton } from 'react-native-paper'; 
-import OptionButton from "../components/OptionButton";
+import OptionButton from "../../components/OptionButton";
 
 const Question2 = () => {
 

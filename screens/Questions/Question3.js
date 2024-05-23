@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet } from "react-native";
-import SubmitButton from "../components/SubmitButton";
-import BinaryButton from "../components/BinaryButton";
-import OptionButton from "../components/OptionButton";
+import SubmitButton from "../../components/SubmitButton";
+import BinaryButton from "../../components/BinaryButton";
+import OptionButton from "../../components/OptionButton";
 
 const Question3 = () => {
   const [selectedOption, setSelectedOption] = useState(null);

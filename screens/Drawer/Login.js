@@ -1,34 +1,43 @@
 import { View, Text, Image, Pressable, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import COLORS from '../constants/colors';
+import COLORS from '../../constants/colors';
 import { Ionicons } from '@expo/vector-icons';
 import Checkbox from 'expo-checkbox';
-import Button from '../components/Button';
+import Button from '../../components/Button';
 import axios from 'axios';
-import Navigation from '../Navigation';
+
+import { LoginContext } from '../../Functions/LoginProvider';
 
 const Login = ({ navigation }) => {
-    const [isPasswordShown, setIsPasswordShown] = useState(false);
-    const [isChecked, setIsChecked] = useState(false);
+  const [isPasswordShown, setIsPasswordShown] = useState(false);
+  const [isChecked, setIsChecked] = useState(false);
+  const { updateLogin, updateToken, updateUser } = useContext(LoginContext);
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
 
-	const [username, setUsername] = useState('');
-	const [password, setPassword] = useState('');
+  const fetchUser = async () => {
+    try {
+      const user = { username, password };
+      const response = await axios.post('http://127.0.0.1:8000/backend/user/login/', user);
+      const token = response.data.access;
+      console.log("Login Token: ", token);
+      console.log("POST request: ", response.data);
 
-	const fetchUser = async() =>  {
-		try {
-			const user = {username, password}
-			const response = await axios.post(`http://127.0.0.1:8000/backend/user/login/`, user)
-			const token = response.data.token
-			console.log("Token: ",token)
-			console.log("POST request: ", response.data)
-			navigation.navigate("Home")
-			// setUser(response.data)
-		} catch (error) {
-			console.log(error)
-			alert("ID not found!")
-		}
-	}
+      if(response.data.access === undefined){
+        alert("Login not successful")
+      }
+      else{
+        updateUser(user);
+        updateLogin(true);
+        updateToken(token);
+        navigation.navigate("Home");
+      }
+    } catch (error) {
+      console.log(error);
+      alert("ID not found!");
+    }
+  };
 
 
     return (
@@ -106,7 +115,7 @@ const Login = ({ navigation }) => {
                         style={styles.socialButton}
                     >
                         <Image
-                            source={require('../assets/facebook.png')}
+                            source={require('../../assets/facebook.png')}
                             style={styles.socialIcon}
                             resizeMode="contain"
                         />
@@ -118,7 +127,7 @@ const Login = ({ navigation }) => {
                         style={styles.socialButton}
                     >
                         <Image
-                            source={require('../assets/google.png')}
+                            source={require('../../assets/google.png')}
                             style={styles.socialIcon}
                             resizeMode="contain"
                         />
