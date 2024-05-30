@@ -1,7 +1,7 @@
 
 import { Button, StyleSheet, Text, View } from "react-native";
 import Navigation from "./Navigation";
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { createContext } from "react";
 import { LoginProvider } from "./Functions/LoginProvider";
 
@@ -18,7 +18,6 @@ export const defaultAnsFromQuestions = {
 export default function Home() {
 	
 	const [answer, setAnswer] = useState(defaultAnsFromQuestions);
-
 
 	const updateAnswers = (question, answer) => {
 		setAnswer(prevState => ({

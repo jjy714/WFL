@@ -20,7 +20,7 @@ import RestaurantList from "./screens/RestaurantList";
 import PersonalComponent from "./components/PersonalComponent";
 import History from "./screens/Drawer/History";
 import Logout from "./components/Logout";
-import recommendation from "./screens/Questions/recommendation";
+import Recommendation from "./screens/Questions/Recommendation";
 
 
 
@@ -41,7 +41,7 @@ function StackScreen() {
       <Stack.Screen name="Question4" component={Question4} options={{ headerShown: false }}/>
       <Stack.Screen name="Question5" component={Question5} options={{ headerShown: false }}/>
       <Stack.Screen name="Result" component={Result} options={{ headerShown: false }} />
-      <Stack.Screen name="Recommendation" component={recommendation} options={{hedaerShown:false}}/>
+      <Stack.Screen name="Recommendation" component={Recommendation} options={{hedaerShown:false}}/>
     </Stack.Navigator>
   );
 }

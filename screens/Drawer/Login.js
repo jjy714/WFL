@@ -19,10 +19,9 @@ const Login = ({ navigation }) => {
   const fetchUser = async () => {
     try {
       const user = { username, password };
-      const response = await axios.post('http://127.0.0.1:8000/backend/user/login/', user);
+      const response = await axios.post('http://127.0.0.1:8000/backend/token/', user);
       const token = response.data.access;
       console.log("Login Token: ", token);
-      console.log("POST request: ", response.data);
 
       if(response.data.access === undefined){
         alert("Login not successful")

@@ -8,7 +8,7 @@ import {
 	RefreshControl,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import axios from "axios";  // Ensure axios is imported
+import axios from "axios";
 import { resultContext } from "../../App";
 import { LoginContext } from "../../Functions/LoginProvider";
 import ComputeResult from "../../Functions/ComputeResult";
@@ -18,16 +18,19 @@ import ErrorPage from "./ErrorPage";
 const Result = () => {
 	const navigation = useNavigation();
 	const { answer } = useContext(resultContext);
-	const { isLoggedIn } = useContext(LoginContext);
+	const { user, isLoggedIn, token } = useContext(LoginContext);
 	const [refreshing, setRefreshing] = useState(false);
+	const [finalAnswers, setFinalAnswers] = useState([]);
 	const [prefinalAnswer, setPrefinalAnswer] = useState(null);
 	const [successCondition, setSuccessCondition] = useState(true);
 
 	useEffect(() => {
 		const computedResults = ComputeResult(answer);
+		console.log(computedResults);
 		if (!computedResults || computedResults.length === 0) {
 			setSuccessCondition(false);
 		} else {
+			setFinalAnswers(computedResults);
 			const randomResult = RandomResult(computedResults);
 			if (randomResult) {
 				setPrefinalAnswer(randomResult["Food Name"]);
@@ -39,10 +42,15 @@ const Result = () => {
 
 	const SaveExit = async () => {
 		try {
-			const body = { answer, prefinalAnswer };
+			const body = { answer: answer, result: prefinalAnswer };
 			const response = await axios.post(
-				"http://127.0.0.1:8000/backend/user/history/create/",
-				body
+				`http://127.0.0.1:8000/backend/user/history/create/${user.username}/`,
+				body,{
+					headers: {
+                    'Authorization': `Token ${token}`,
+					'Content-Type': 'application/json'
+                }
+			}
 			);
 			console.log(response.data);
 		} catch (error) {
@@ -52,6 +60,10 @@ const Result = () => {
 
 	const onRefresh = () => {
 		setRefreshing(true);
+		if (finalAnswers.length > 0) {
+			const randomResult = RandomResult(finalAnswers);
+			setPrefinalAnswer(randomResult["Food Name"]);
+		}
 		setTimeout(() => {
 			setRefreshing(false);
 		}, 1000);

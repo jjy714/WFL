@@ -14,7 +14,7 @@ const Question1 = () => {
 	const optionFactors = {
 		option1: "Not spicy",
 		option2: "Little spicy",
-		option3: "Medium spicy(About Shin ramyen)",
+		option3: "Medium spicy(About Shin ramyeon)",
 		option4: "Very hot(About Buldak)",
 	};
 

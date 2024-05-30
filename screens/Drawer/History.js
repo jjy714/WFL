@@ -5,19 +5,21 @@ import { LoginContext } from '../../Functions/LoginProvider';
 
 const History = () => {
     const [history, setHistory] = useState([]);
-    const {user, token} = useContext(LoginContext)
+    const { user, token } = useContext(LoginContext);
 
     useEffect(() => {
         const fetchHistory = async () => {
             try {
-                const response = await axios.get(`http://127.0.0.1:8000/backend/user/history/view/${user}`, {
+                const response = await axios.get(`http://127.0.0.1:8000/backend/user/history/view/${user.username}`, {
                     headers: {
-                        Authorization: `Token ${token}`
+                        'Authorization': `Token ${token}`, 
+                        'Content-Type': 'application/json'
                     }
                 });
                 setHistory(response.data);
+                console.log("Data stored", response.data);
             } catch (error) {
-                alert("Log in to view history!")
+                alert("Log in to view history!");
                 console.error(error);
             }
         };

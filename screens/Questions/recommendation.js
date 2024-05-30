@@ -1,7 +1,7 @@
 import { Text, View } from 'react-native'
 import React, { Component } from 'react'
 
-const recommendation = () => {
+const Recommendation = () => {
     {
     return (
       <View>
@@ -11,4 +11,4 @@ const recommendation = () => {
   }
 };
 
-export default recommendation;
+export default Recommendation;
