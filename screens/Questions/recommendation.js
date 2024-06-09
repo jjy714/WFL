@@ -5,8 +5,9 @@ import axios from 'axios';
 import * as Location from 'expo-location';
 import { useRoute } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
+import GOOGLE_API_KEY from '../../constants/keys';
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyB2-s4embarEkKK1rAhmb_Yy9YrrDZW060';
+const GOOGLE_MAPS_API_KEY = GOOGLE_API_KEY;
 
 const ReferenceLocation = {
   latitude: 37.561685,
