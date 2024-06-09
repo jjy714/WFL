@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/8382732.png",
+    "scheme": "WFL_APP", 
     "userInterfaceStyle": "light",
     "splash": {
       "image": "/Users/jason/Projects/HCIAppProject/WFL/assets/bundle/iOS/LaunchImage.launchimage",
@@ -35,6 +36,25 @@
           "fonts": [
             "./assets/fonts/SFPRODISPLAYREGULAR.otf"
           ]
+        }
+      ],
+      [
+        "@mj-studio/react-native-naver-map",
+        {
+          "client_id": "{{Naver Map Client Key}}",
+          "android": {
+            "ACCESS_FINE_LOCATION": true,
+            "ACCESS_COARSE_LOCATION": true,
+            "ACCESS_BACKGROUND_LOCATION": true
+          },
+          "ios": {
+            "NSLocationAlwaysAndWhenInUseUsageDescription": "{{ your location usage description }}",
+            "NSLocationWhenInUseUsageDescription": "{{ your location usage description }}",
+            "NSLocationTemporaryUsageDescriptionDictionary": {
+              "purposeKey": "{{ your purpose key }}",
+              "usageDescription": "{{ your location usage description }}"
+            }
+          }
         }
       ]
     ],
